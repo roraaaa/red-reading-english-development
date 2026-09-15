@@ -43,9 +43,9 @@ const _question = Question(
   answerIndex: 0,
 );
 
-Passage _passage(String id, {String? level, Difficulty? difficulty, String title = 'Story'}) => Passage(
+Passage _passage(String id, {String? level, Difficulty? difficulty, String? title}) => Passage(
   id: id,
-  title: title,
+  title: title ?? 'Title for $id',
   topic: 'Topic',
   icon: 'book',
   levelId: level,
@@ -135,6 +135,16 @@ void main() {
     expect(await repo.refreshFromCloud(), isFalse);
     expect(repo.version, 0);
     expect(repo.material('story')!.title, 'Bundled');
+  });
+
+  test('assessment cards can never be opened or listed as Materials stories', () async {
+    final repo = repository();
+    await repo.load();
+
+    expect(repo.material('easy'), isNull);
+    expect(repo.materialsFor('green').map((p) => p.id), ['story']);
+    expect(repo.assessment('easy'), isNotNull);
+    expect(repo.assessment('story'), isNull);
   });
 
   test('checks the cloud at most every few minutes unless forced', () async {

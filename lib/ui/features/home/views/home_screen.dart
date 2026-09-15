@@ -18,7 +18,11 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  late final HomeViewModel _viewModel = HomeViewModel(auth: context.read(), progress: context.read());
+  late final HomeViewModel _viewModel = HomeViewModel(
+    auth: context.read(),
+    progress: context.read(),
+    content: context.read(),
+  );
 
   @override
   void dispose() {
@@ -80,7 +84,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         final materials = _FeatureCard(
                           title: 'Materials',
                           subtitle: 'Practice with fun stories at your own pace',
-                          badge: '5 levels',
+                          badge: '${_viewModel.levelCount} levels',
                           icon: Icons.auto_stories_rounded,
                           colors: const [AppColors.materialsStart, AppColors.materialsEnd],
                           onTap: () => context.push(Routes.materials),

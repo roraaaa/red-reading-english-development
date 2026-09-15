@@ -62,6 +62,69 @@
         { "id": "q4", "type": "text", "skill": "details", "prompt": "Where are about two-thirds of an octopus's neurons?", "accepted": [["arm"]], "answerText": "In its arms" },
         { "id": "q5", "type": "choice", "skill": "mainIdea", "prompt": "What is this text mostly about?", "options": ["How to cook seafood", "The surprising body, brain and tricks of the octopus", "Why coral reefs are colorful"], "answer": 1 }
       ]
+    },
+    {
+      "id": "dna",
+      "level": "orange",
+      "title": "DNA: The Code Inside Every Cell",
+      "topic": "Science",
+      "icon": "science",
+      "paragraphs": [
+        "Why do you have your mother's smile or your grandfather's curly hair? Why does a mango seed grow into a mango tree and never into a coconut palm? The answer is hidden inside living cells, in a molecule called DNA.",
+        "Your body is made of trillions of tiny cells, and tucked inside most of them is DNA: a very long, very thin molecule shaped like a twisted ladder. Scientists call this shape a double helix. If you could unwind the DNA from just one of your cells and stretch it out, it would be about two meters long, yet it fits inside a space far smaller than the dot on a letter i.",
+        "DNA works like an instruction book written in a code with only four letters: A, T, C and G. The rungs of the twisted ladder are made of these four chemical bases, and they always pair the same way: A with T, and C with G. The order of the letters spells out instructions. A section of DNA that holds the instructions for one job, such as helping to give your eyes their color, is called a gene.",
+        "You get half of your DNA from your mother and half from your father. That is why children often look a little like both parents. All humans share about 99.9 percent of their DNA, so tiny differences are what make each person unique.",
+        "In the early 1950s, scientist Rosalind Franklin used X-rays to take a famous image of DNA, known as Photo 51. With the help of her work, James Watson and Francis Crick described the double helix in 1953. Today, understanding DNA helps doctors treat diseases, helps farmers grow stronger crops and even helps solve crimes."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "What is the twisted-ladder shape of DNA called?", "accepted": [["double helix"]], "answerText": "A double helix" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "Which letter does A always pair with in DNA?", "options": ["C", "G", "T"], "answer": 2 },
+        { "id": "q3", "type": "text", "skill": "vocabulary", "prompt": "What is a section of DNA that holds the instructions for one job called?", "accepted": [["gene"]], "answerText": "A gene" },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why do children often look a little like both of their parents?", "options": ["They get half of their DNA from each parent", "They eat the same food", "They live in the same house"], "answer": 0 },
+        { "id": "q5", "type": "choice", "skill": "sequence", "prompt": "Which of these happened FIRST?", "options": ["Watson and Crick described the double helix", "Rosalind Franklin took Photo 51", "Doctors used DNA to treat diseases"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "great-pyramid",
+      "level": "orange",
+      "title": "The Great Pyramid of Giza",
+      "topic": "History",
+      "icon": "pyramid",
+      "paragraphs": [
+        "On the edge of the desert near Cairo, Egypt, stands one of the oldest and most famous buildings on Earth: the Great Pyramid of Giza. It was built about 4,500 years ago as a tomb for a pharaoh, or king, named Khufu. It is the oldest of the Seven Wonders of the Ancient World, and the only one still standing.",
+        "The Great Pyramid is enormous. It was built from about 2.3 million blocks of stone, and many of them weigh more than two tons each, about as much as a small car. When it was finished, it rose about 146 meters high. For nearly 4,000 years, it was the tallest structure people had ever built.",
+        "How did the ancient Egyptians build it without modern machines? Workers cut stone with copper tools and moved the heavy blocks on wooden sledges. Some blocks came from far away, carried along the Nile River by boat. Scientists have found that wetting the sand in front of a sledge makes it much easier to pull, and ramps of mud and stone probably helped raise the blocks higher and higher.",
+        "For a long time, many people believed that slaves built the pyramids. But archaeologists have discovered the villages where the builders lived, along with their bakeries and even their tombs. This evidence shows that the builders were skilled, paid workers who were proud of their work.",
+        "The ancient Egyptians believed that a pharaoh's spirit lived on after death. The pyramid protected Khufu's body and the treasures he would need in the afterlife. Even today, scientists are using new technology to discover hidden spaces inside the Great Pyramid."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "details", "prompt": "Which pharaoh was the Great Pyramid built for?", "accepted": [["khufu"]], "answerText": "Khufu" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "About how many stone blocks were used to build it?", "options": ["2,300", "2.3 million", "23 billion"], "answer": 1 },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "What makes a heavy sledge easier to pull across the sand?", "options": ["Wetting the sand in front of it", "Using a truck", "Painting the stones"], "answer": 0 },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "How did finding the builders' villages, bakeries and tombs change what people believed?", "options": ["It showed the builders were skilled, paid workers, not slaves", "It proved that no one lived nearby", "It showed the pyramid was built last year"], "answer": 0 },
+        { "id": "q5", "type": "text", "skill": "vocabulary", "prompt": "What was a pharaoh?", "accepted": [["king", "ruler"]], "answerText": "A king of ancient Egypt" }
+      ]
+    },
+    {
+      "id": "artificial-intelligence",
+      "level": "orange",
+      "title": "Artificial Intelligence: How Computers Learn",
+      "topic": "Technology",
+      "icon": "robot",
+      "paragraphs": [
+        "When you ask a voice assistant about the weather, get a movie suggestion on a video app or use a tool that translates English into Filipino, you are using artificial intelligence, or AI. AI is a kind of computer program that can do tasks that usually need human thinking, like recognizing pictures, understanding speech and answering questions.",
+        "Most computer programs follow exact rules written by programmers. Many AI systems work differently: they learn from examples. Imagine teaching a computer to recognize cats. Instead of describing every kind of cat, people show it thousands of photos labeled \"cat\" and \"not a cat.\" The program searches for patterns, such as pointy ears and whiskers, and slowly gets better at telling them apart. Learning from lots of examples like this is called machine learning.",
+        "AI can be incredibly helpful. It helps doctors spot signs of disease in medical scans, helps farmers check the health of their crops and helps scientists study huge amounts of information quickly.",
+        "But AI also makes mistakes. It only knows what it has learned from its examples, and if those examples are incomplete or unfair, the AI can give wrong or unfair answers. An AI tool can even sound very sure of itself while saying something that is not true. That is why people must always check important information, and why the people who build AI need to test it carefully.",
+        "Here are some smart habits for using AI tools: never share private information like your address or passwords, ask a trusted adult when you are unsure, and remember that AI is a helper for your thinking, not a replacement for it."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "What does AI stand for?", "accepted": [["artificial intelligence"]], "answerText": "Artificial intelligence" },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What is learning from lots of examples called?", "accepted": [["machine learning"]], "answerText": "Machine learning" },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "How can people teach an AI program to recognize cats?", "options": ["By showing it thousands of photos labeled cat and not a cat", "By letting it pet a cat", "By drawing one cat for it"], "answer": 0 },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why might an AI give an unfair answer?", "options": ["It learned from examples that were incomplete or unfair", "It is tired", "It does not like people"], "answer": 0 },
+        { "id": "q5", "type": "choice", "skill": "mainIdea", "prompt": "What is the main idea of the text?", "options": ["AI is always right", "AI learns from examples and can be very helpful, but people must use it carefully", "Computers cannot learn anything"], "answer": 1 }
+      ]
     }
   ]
 }

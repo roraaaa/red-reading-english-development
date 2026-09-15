@@ -62,6 +62,68 @@
         { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why did the other children have beautiful plants?", "options": ["They were better gardeners", "They secretly used different seeds", "The emperor gave them flowers"], "answer": 1 },
         { "id": "q5", "type": "choice", "skill": "mainIdea", "prompt": "What is the main lesson of the story?", "options": ["Honesty takes courage, and it is worth it", "Big pots grow better plants", "Emperors love flowers"], "answer": 0 }
       ]
+    },
+    {
+      "id": "haribon-eagle",
+      "level": "violet",
+      "title": "Haribon, the Mighty Eagle",
+      "topic": "Philippine Animals",
+      "icon": "bird",
+      "paragraphs": [
+        "Soaring above the rainforests of Mindanao, Luzon, Samar and Leyte is one of the largest and most powerful eagles in the world: the Philippine eagle. Long brown and cream feathers form a shaggy crest on its head, like a lion's mane, and its wings can stretch about two meters from tip to tip.",
+        "The Philippine eagle was once called the monkey-eating eagle, because monkeys are among the animals it hunts. Its most common prey, though, is often the colugo, a gliding mammal also called the flying lemur. It also catches snakes, bats and large birds. People often call the eagle Haribon, from the Filipino words haring ibon, meaning king of birds.",
+        "Philippine eagles mate for life. A pair raises only one chick about every two years. The parents take turns keeping the egg warm and bringing food, and the young eagle stays with them for many months while it learns to fly and hunt.",
+        "Sadly, the Philippine eagle is critically endangered. Only a few hundred pairs are left in the wild, mostly because the forests they live in have been cut down. In 1995, it was declared the national bird of the Philippines. Groups such as the Philippine Eagle Foundation in Davao City care for eagles and teach people how to protect their forest homes."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "What do the Filipino words \"haring ibon\" mean?", "accepted": [["king"], ["bird"]], "answerText": "King of birds" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "Why was the Philippine eagle once called the monkey-eating eagle?", "options": ["It is afraid of monkeys", "Monkeys are among the animals it hunts", "It lives with monkeys"], "answer": 1 },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "How often does a pair of Philippine eagles raise a chick?", "options": ["Every week", "About every two years", "Every day"], "answer": 1 },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why does cutting down forests put the eagles in danger?", "options": ["The eagles lose their homes and the animals they hunt", "The eagles get too cold", "The eagles fly too high"], "answer": 0 },
+        { "id": "q5", "type": "text", "skill": "details", "prompt": "In what year was the Philippine eagle declared the national bird?", "accepted": [["1995"]], "answerText": "1995" }
+      ]
+    },
+    {
+      "id": "bones-inside-you",
+      "level": "violet",
+      "title": "The Bones Inside You",
+      "topic": "Human Body",
+      "icon": "bone",
+      "paragraphs": [
+        "Without your bones, you would flop onto the floor like a pile of jelly! Your bones form your skeleton, the strong frame that holds your body up, gives it shape and helps you move.",
+        "An adult's skeleton has 206 bones. A newborn baby has around 300, but as the baby grows, some of those bones join together. The longest and strongest bone is the thigh bone, called the femur. The smallest is the stirrup bone, deep inside your ear, which is only about as big as a grain of rice.",
+        "Bones also protect the soft parts inside you. Your skull guards your brain, and your ribs form a cage around your heart and lungs. Where two bones meet, there is a joint. Joints such as your knees, elbows and knuckles let you bend, twist and wave.",
+        "Although bones feel as hard as rock, they are alive. They grow, and they can even repair themselves after a break. Inside many bones is a soft, spongy tissue called marrow, which makes new blood cells every day.",
+        "To keep your bones strong, eat foods with calcium, such as milk, cheese, small fish and green leafy vegetables. Spend a little time in the sunshine for vitamin D, and stay active by running, jumping and playing."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "details", "prompt": "How many bones does an adult skeleton have?", "accepted": [["206"]], "answerText": "206 bones" },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What is the thigh bone called?", "accepted": [["femur"]], "answerText": "The femur" },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "Which bones protect your heart and lungs?", "options": ["Your ribs", "Your knuckles", "Your femur"], "answer": 0 },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why are joints important when you play sports?", "options": ["They let your body bend, twist and move", "They make your bones heavier", "They keep food in your stomach"], "answer": 0 },
+        { "id": "q5", "type": "choice", "skill": "mainIdea", "prompt": "What is the main idea of the text?", "options": ["Milk tastes good", "Bones hold you up, protect you, are alive and need care", "Babies are very small"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "why-the-sky-is-high",
+      "level": "violet",
+      "title": "Why the Sky Is So High",
+      "topic": "Filipino Folk Tales",
+      "icon": "cloud",
+      "paragraphs": [
+        "Long, long ago, the old people say, the sky was so low that a tall man could touch it just by reaching up. Clouds brushed against the rooftops, and people had to bend down when they walked outside.",
+        "In one village lived a hardworking young woman who pounded rice every morning. She used a large wooden mortar and a long pestle, lifting the pestle high above her head and bringing it down hard to loosen the husks from the grains.",
+        "One hot day, before she started working, she took off her shiny comb and her necklace of beads so they would not get in the way. Because the sky was so close, she simply hung them on it.",
+        "Then she began to pound. Each time she raised the long pestle, it bumped against the sky. \"Move higher, sky!\" she said, and she pounded even harder. Bump! Bump! With every hit, the sky rose a little more, until it floated far above the tallest trees and mountains.",
+        "Up, up went her comb and necklace, too. The storytellers say that her comb became the moon, and the beads of her necklace scattered across the heavens and became the stars. And that, according to the legend, is why the sky is so high."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "According to the legend, what was the sky like long ago?", "options": ["Very high and far away", "So low that a tall man could touch it", "Always dark"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What long tool did the woman use to pound the rice?", "accepted": [["pestle"]], "answerText": "A long pestle" },
+        { "id": "q3", "type": "choice", "skill": "sequence", "prompt": "What did the woman do right before she began pounding rice?", "options": ["She took off her comb and necklace and hung them on the sky", "She climbed a mountain", "She cooked the rice"], "answer": 0 },
+        { "id": "q4", "type": "text", "skill": "details", "prompt": "What did her comb become?", "accepted": [["moon"]], "answerText": "The moon" },
+        { "id": "q5", "type": "choice", "skill": "inference", "prompt": "Why do you think people told this legend long ago?", "options": ["To explain why the sky, moon and stars are where they are", "To teach people how to cook rice", "To warn people about combs"], "answer": 0 }
+      ]
     }
   ]
 }

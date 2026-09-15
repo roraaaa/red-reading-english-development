@@ -57,6 +57,61 @@
         { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What is the hard shell around the caterpillar called?", "accepted": [["chrysalis"]], "answerText": "A chrysalis" },
         { "id": "q3", "type": "choice", "skill": "sequence", "prompt": "What happens LAST in the story?", "options": ["The caterpillar eats leaves", "The butterfly flies away to find flowers", "The mother lays her eggs"], "answer": 1 }
       ]
+    },
+    {
+      "id": "busy-ant",
+      "level": "green",
+      "title": "The Busy Ant",
+      "topic": "Insects",
+      "icon": "bug",
+      "paragraphs": [
+        "Ants are tiny insects, but they are very strong. An ant can carry things that are much heavier than its own body!",
+        "Ants live together in big groups called colonies. Many colonies build their homes, called nests, under the ground.",
+        "When an ant finds food, it walks back home and leaves a smell on the ground. Other ants follow the smell like a path to find the food, too.",
+        "Ants work as a team. Some ants look for food, some take care of the babies, and some keep the nest clean."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What is a big group of ants called?", "options": ["A colony", "A herd", "A flock"], "answer": 0 },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "How do other ants find the food?", "options": ["They follow a smell on the ground", "They listen for a song", "They look at a map"], "answer": 0 },
+        { "id": "q3", "type": "text", "skill": "vocabulary", "prompt": "What do we call an ant's home?", "accepted": [["nest"]], "answerText": "A nest" }
+      ]
+    },
+    {
+      "id": "five-senses",
+      "level": "green",
+      "title": "My Five Senses",
+      "topic": "Human Body",
+      "icon": "hand",
+      "paragraphs": [
+        "Your body has five senses. They help you learn about the world around you.",
+        "You see with your eyes. You hear with your ears. You smell with your nose.",
+        "You taste with your tongue. It can tell if food is sweet, salty, sour or bitter.",
+        "You touch with your skin. Your skin can feel if something is hot or cold, soft or rough.",
+        "Which senses will you use when you eat a yummy mango?"
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "Which body part do you use to smell?", "options": ["Your eyes", "Your nose", "Your ears"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "How many senses does your body have?", "accepted": [["5"]], "answerText": "Five" },
+        { "id": "q3", "type": "choice", "skill": "inference", "prompt": "Which sense tells you that ice is cold?", "options": ["Touch", "Hearing", "Sight"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "crow-and-pitcher",
+      "level": "green",
+      "title": "The Crow and the Pitcher",
+      "topic": "Fables",
+      "icon": "drop",
+      "paragraphs": [
+        "It was a hot, dry day. A thirsty crow flew around looking for water.",
+        "At last, the crow found a pitcher with a little water at the bottom. But the pitcher was tall, and the crow's beak could not reach the water.",
+        "The crow did not give up. It picked up a small pebble and dropped it into the pitcher. Then it dropped another, and another.",
+        "Slowly, the water rose higher and higher. Soon the crow could drink. Thinking hard can help us solve a problem!"
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What was the crow looking for?", "options": ["Food", "Water", "A nest"], "answer": 1 },
+        { "id": "q2", "type": "choice", "skill": "sequence", "prompt": "What did the crow do after it saw it could not reach the water?", "options": ["It flew away", "It dropped pebbles into the pitcher", "It broke the pitcher"], "answer": 1 },
+        { "id": "q3", "type": "choice", "skill": "mainIdea", "prompt": "What is the lesson of the story?", "options": ["Crows like pebbles", "Thinking hard and not giving up can solve a problem", "Pitchers are always tall"], "answer": 1 }
+      ]
     }
   ]
 }

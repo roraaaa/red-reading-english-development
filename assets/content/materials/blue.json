@@ -59,6 +59,64 @@
         { "id": "q3", "type": "choice", "skill": "sequence", "prompt": "What did the farmer and his wife do after they became rich?", "options": ["They gave the goose away", "They cut the goose open to get all the gold", "They moved to the city"], "answer": 1 },
         { "id": "q4", "type": "choice", "skill": "mainIdea", "prompt": "What is the lesson of this fable?", "options": ["Geese are smart animals", "Wanting too much, too fast, can make you lose everything", "Golden eggs are heavy"], "answer": 1 }
       ]
+    },
+    {
+      "id": "banaue-rice-terraces",
+      "level": "blue",
+      "title": "The Banaue Rice Terraces",
+      "topic": "Philippines",
+      "icon": "terrain",
+      "paragraphs": [
+        "High in the mountains of Ifugao, in the northern Philippines, giant green steps climb up the steep slopes. These are the Banaue Rice Terraces: flat fields carved into the mountainsides so that rice can grow where the land is too steep for ordinary farms.",
+        "The terraces were built by hand by the Ifugao people, using simple tools. They shaped the soil and built walls of mud and stone to hold each step in place. Experts still discuss exactly how old the terraces are, but families have farmed them for hundreds of years.",
+        "Water is the secret of the terraces. Forests at the tops of the mountains catch rainwater. Farmers then guide the water down through channels and bamboo pipes, from one terrace to the next, so every step gets the water its rice plants need.",
+        "Because they are so beautiful and important, the Rice Terraces of the Philippine Cordilleras were named a UNESCO World Heritage Site in 1995. Today, young Ifugao farmers and visitors are learning how to care for them so they last for many more years."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "Why were the terraces carved into the mountains?", "options": ["So rice can grow where the land is too steep for ordinary farms", "To make slides for children", "To hide from storms"], "answer": 0 },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "Which people built the rice terraces by hand?", "accepted": [["ifugao"]], "answerText": "The Ifugao people" },
+        { "id": "q3", "type": "choice", "skill": "sequence", "prompt": "What happens right after the forests catch rainwater?", "options": ["Farmers guide it down through channels and bamboo pipes", "The rice is cooked", "Visitors take pictures"], "answer": 0 },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why is it important to protect the forests above the terraces?", "options": ["They catch the rainwater the rice needs", "They are good places to park", "They make the terraces taller"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "magic-of-magnets",
+      "level": "blue",
+      "title": "The Magic of Magnets",
+      "topic": "Science",
+      "icon": "compass",
+      "paragraphs": [
+        "Have you ever stuck a picture to the refrigerator with a magnet? A magnet is an object that can pull certain metals toward it without even touching them. This invisible pull is called magnetic force.",
+        "Magnets attract things made of iron, nickel and steel, like paper clips and nails. But they do not attract wood, plastic, paper or glass. They do not even pull on aluminum cans.",
+        "Every magnet has two ends, called poles: a north pole and a south pole. If you hold two magnets close together, opposite poles pull toward each other, but poles that are the same push each other away. Scientists say that opposites attract and likes repel.",
+        "Earth itself acts like a giant magnet. That is why a compass works. The compass needle is a tiny magnet, and it turns until it points north. For hundreds of years, sailors and explorers have used compasses to find their way across the oceans."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "Which of these would a magnet pull toward it?", "options": ["A wooden spoon", "A steel paper clip", "A plastic cup"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What are the two ends of a magnet called?", "accepted": [["pole"]], "answerText": "Poles: a north pole and a south pole" },
+        { "id": "q3", "type": "choice", "skill": "inference", "prompt": "What would happen if you pushed the north poles of two magnets together?", "options": ["They would stick together", "They would push each other away", "They would turn into wood"], "answer": 1 },
+        { "id": "q4", "type": "choice", "skill": "details", "prompt": "Why does a compass needle point north?", "options": ["It is a tiny magnet, and Earth acts like a giant magnet", "It is painted to point that way", "The wind pushes it"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "juan-tamad",
+      "level": "blue",
+      "title": "Juan Tamad and the Guava Tree",
+      "topic": "Filipino Folk Tales",
+      "icon": "tree",
+      "paragraphs": [
+        "Juan was a boy who did not like to work. He was so lazy that everyone in the village called him Juan Tamad, which means Lazy Juan.",
+        "One sunny afternoon, Juan's mother asked him to go to the market. On the way, he passed a guava tree full of ripe, sweet fruit. Juan's mouth watered. But instead of climbing the tree or shaking a branch, he lay down right under it.",
+        "\"Why should I climb?\" he said to himself. \"I will just open my mouth and wait. Sooner or later, a guava will fall right in.\" So Juan lay there with his mouth wide open, waiting and waiting.",
+        "Hours passed. Ants crawled over his feet and the sun began to set, but not a single guava fell. When Juan finally went home, it was too late for the market, and his mother had nothing to cook for dinner. Juan was hungry, and he had no guavas either.",
+        "Filipinos still tell this funny story to remind children that good things come to those who work for them, not to those who just wait."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "What does \"Tamad\" mean in Juan's name?", "accepted": [["lazy"]], "answerText": "Lazy" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "What did Juan do when he saw the guava tree?", "options": ["He climbed it quickly", "He lay under it and waited for a guava to fall", "He shook the branches"], "answer": 1 },
+        { "id": "q3", "type": "choice", "skill": "sequence", "prompt": "What happened after Juan waited for hours?", "options": ["A guava fell into his mouth", "The sun began to set and no guava fell", "His mother brought him guavas"], "answer": 1 },
+        { "id": "q4", "type": "choice", "skill": "mainIdea", "prompt": "What lesson does the story teach?", "options": ["Guavas are sweet", "Good things come to those who work for them, not those who just wait", "Ants like to crawl on feet"], "answer": 1 }
+      ]
     }
   ]
 }

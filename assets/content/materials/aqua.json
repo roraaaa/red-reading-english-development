@@ -59,6 +59,65 @@
         { "id": "q3", "type": "text", "skill": "details", "prompt": "What did the ugly duckling grow up to be?", "accepted": [["swan"]], "answerText": "A beautiful white swan" },
         { "id": "q4", "type": "choice", "skill": "mainIdea", "prompt": "What lesson does the story teach?", "options": ["Being different is bad", "Be kind, because everyone grows in their own way", "Ducks are better than swans"], "answer": 1 }
       ]
+    },
+    {
+      "id": "elephants",
+      "level": "aqua",
+      "title": "Elephants: The Largest Land Animals",
+      "topic": "Animals",
+      "icon": "pets",
+      "paragraphs": [
+        "Elephants are the largest animals that live on land. An adult African elephant can weigh as much as a small truck!",
+        "An elephant's trunk is its nose and upper lip joined together, and it is very useful. Elephants use their trunks to breathe, smell, drink water, pick up food and even greet each other.",
+        "Elephants live in family groups called herds. The oldest and wisest female, called the matriarch, leads the herd. She remembers where to find food and water, even in dry seasons.",
+        "Elephants also have big ears. On hot days, they flap their ears like fans to help cool their bodies down."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What is an elephant's trunk?", "options": ["Its nose and upper lip joined together", "A kind of tail", "An extra leg"], "answer": 0 },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What is the oldest female who leads the herd called?", "accepted": [["matriarch"]], "answerText": "The matriarch" },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "Why do elephants flap their ears on hot days?", "options": ["To fly", "To cool their bodies down", "To catch insects"], "answer": 1 },
+        { "id": "q4", "type": "choice", "skill": "mainIdea", "prompt": "What is this text mostly about?", "options": ["How to ride an elephant", "Facts about elephants' bodies and families", "Why trucks are heavy"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "the-sun",
+      "level": "aqua",
+      "title": "The Sun: Our Nearest Star",
+      "topic": "Space",
+      "icon": "sun",
+      "paragraphs": [
+        "Every morning, the Sun rises and lights up our day. But did you know the Sun is a star? It is the star closest to Earth.",
+        "The Sun is a giant ball of very hot, glowing gas. It is so big that more than a million Earths could fit inside it!",
+        "The Sun is about 150 million kilometers away from us. Its light travels so fast that it reaches Earth in about eight minutes.",
+        "Plants need sunlight to grow, and the Sun keeps our planet warm. Without the Sun, there would be no life on Earth.",
+        "Remember: never look straight at the Sun, even with sunglasses on. Its strong light can hurt your eyes."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What is the Sun?", "options": ["A planet", "A star", "A moon"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "About how long does sunlight take to reach Earth?", "accepted": [["8 minute"]], "answerText": "About eight minutes" },
+        { "id": "q3", "type": "choice", "skill": "vocabulary", "prompt": "The text says the Sun is \"glowing.\" What does glowing mean?", "options": ["Giving off light", "Very cold", "Very small"], "answer": 0 },
+        { "id": "q4", "type": "choice", "skill": "details", "prompt": "Why should you never look straight at the Sun?", "options": ["It will stop shining", "Its strong light can hurt your eyes", "It will move away"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "boy-who-cried-wolf",
+      "level": "aqua",
+      "title": "The Boy Who Cried Wolf",
+      "topic": "Fables",
+      "icon": "landscape",
+      "paragraphs": [
+        "A young shepherd boy watched over his village's sheep on a hill. The days were long, and he was bored.",
+        "One day, he shouted, \"Wolf! Wolf! A wolf is chasing the sheep!\" The villagers ran up the hill to help, but there was no wolf. The boy laughed at them.",
+        "A few days later, he did it again. Once more, the villagers came running, and once more, there was no wolf. This time they were very angry.",
+        "Then, one evening, a real wolf came. \"Wolf! Wolf!\" the boy cried. But no one came, because no one believed him anymore. The wolf scattered the sheep.",
+        "Nobody believes a liar, even when he is telling the truth."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "inference", "prompt": "Why did the boy first shout \"Wolf!\"?", "options": ["He saw a real wolf", "He was bored and wanted to trick the villagers", "The sheep were lost"], "answer": 1 },
+        { "id": "q2", "type": "choice", "skill": "sequence", "prompt": "What happened the second time the boy shouted \"Wolf!\"?", "options": ["No one came", "The villagers came running again, but there was no wolf", "A real wolf came"], "answer": 1 },
+        { "id": "q3", "type": "text", "skill": "details", "prompt": "Why did no one come when the real wolf appeared?", "accepted": [["believe", "trust", "lie", "liar", "lying", "trick", "joke"]], "answerText": "They did not believe him anymore" },
+        { "id": "q4", "type": "choice", "skill": "mainIdea", "prompt": "What is the lesson of the story?", "options": ["Wolves are scary", "If you tell lies, people may not believe you when you tell the truth", "Sheep need big hills"], "answer": 1 }
+      ]
     }
   ]
 }

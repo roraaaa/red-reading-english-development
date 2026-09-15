@@ -33,18 +33,23 @@ class AnswerGrader {
     'ô': 'o', 'ö': 'o', 'ú': 'u', 'ù': 'u', 'û': 'u', 'ü': 'u', 'ñ': 'n',
   };
 
-  static List<String> tokenize(String text) {
+  static List<String> tokenize(String text) => normalizedWords(text).map(canonical).toList();
+
+  /// Lower-case words with accents and punctuation removed,
+  /// e.g. "José's Moons!" -> [jose, s, moons].
+  static List<String> normalizedWords(String text) {
     var lower = text.toLowerCase();
     _accents.forEach((from, to) => lower = lower.replaceAll(from, to));
     return lower
         .replaceAll(RegExp(r'[^a-z0-9\s]'), ' ')
         .split(RegExp(r'\s+'))
         .where((t) => t.isNotEmpty)
-        .map(_canonical)
         .toList();
   }
 
-  static String _canonical(String token) {
+  /// Number words become digits and plurals become singular
+  /// ("two" -> "2", "moons" -> "moon").
+  static String canonical(String token) {
     final number = _numberWords[token];
     if (number != null) return number;
     if (token.length > 3 && token.endsWith('s') && !token.endsWith('ss')) {

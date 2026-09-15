@@ -19,9 +19,18 @@ abstract final class ContentValidator {
     }
 
     final passageIds = <String>{};
+    final titles = <String, String>{};
     for (final passage in content.passages) {
       final where = 'Passage "${passage.id}"';
       if (!passageIds.add(passage.id)) problems.add('$where appears twice.');
+
+      final titleKey = AnswerGrader.tokenize(passage.title).join(' ');
+      final sameTitle = titles[titleKey];
+      if (sameTitle != null) {
+        problems.add('$where has the same title as "$sameTitle".');
+      } else {
+        titles[titleKey] = passage.id;
+      }
 
       final isMaterial = passage.levelId != null;
       final isAssessment = passage.difficulty != null;
@@ -61,6 +70,26 @@ abstract final class ContentValidator {
       }
     }
 
+    // Assessment topics are exclusive: a child should never have practised
+    // the exact topic in Materials before being assessed on it.
+    final assessments = content.passages.where((p) => p.difficulty != null).toList();
+    for (final story in content.passages.where((p) => p.levelId != null)) {
+      final storyWords = titleKeywords(story.title);
+      for (final card in assessments) {
+        final cardWords = titleKeywords(card.title);
+        final shared = [
+          for (final entry in storyWords.entries)
+            if (cardWords.containsKey(entry.key)) entry.value,
+        ];
+        if (shared.isNotEmpty) {
+          problems.add(
+            'Story "${story.id}" and assessment card "${card.id}" look like the same topic '
+            '(both titles mention: ${shared.join(', ')}). Assessment topics must not appear in Materials.',
+          );
+        }
+      }
+    }
+
     for (final level in content.levels) {
       if (!content.passages.any((p) => p.levelId == level.id)) {
         problems.add('Level "${level.id}" has no stories.');
@@ -73,4 +102,19 @@ abstract final class ContentValidator {
     }
     return problems;
   }
+
+  /// Words too common in titles to say anything about the topic.
+  static const _commonTitleWords = {
+    'about', 'amazing', 'every', 'first', 'from', 'give', 'great', 'into',
+    'legend', 'life', 'little', 'made', 'make', 'over', 'story', 'that',
+    'this', 'under', 'what', 'when', 'where', 'which', 'with', 'world', 'your',
+  };
+
+  /// The topic words of a title: words of 4+ letters that are not common
+  /// title words. Keys ignore plurals ("honeybees" and "honeybee" match);
+  /// values are the words as written, for messages.
+  static Map<String, String> titleKeywords(String title) => {
+    for (final word in AnswerGrader.normalizedWords(title))
+      if (word.length >= 4 && !_commonTitleWords.contains(word)) AnswerGrader.canonical(word): word,
+  };
 }

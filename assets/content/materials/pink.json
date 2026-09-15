@@ -62,6 +62,69 @@
         { "id": "q4", "type": "text", "skill": "details", "prompt": "Name one of the two famous novels Rizal wrote.", "accepted": [["noli me tangere", "noli", "el filibusterismo", "filibusterismo"]], "answerText": "Noli Me Tangere or El Filibusterismo" },
         { "id": "q5", "type": "choice", "skill": "sequence", "prompt": "Which of these happened LAST in Rizal's life?", "options": ["He studied at the Ateneo", "He wrote his two novels", "He was executed in 1896"], "answer": 2 }
       ]
+    },
+    {
+      "id": "electricity",
+      "level": "pink",
+      "title": "Electricity: From Power Plant to Plug",
+      "topic": "Science",
+      "icon": "bolt",
+      "paragraphs": [
+        "Flip a switch and the lights come on. Plug in a charger and a phone's battery fills up. But where does that electricity come from, and how does it travel all the way to your home?",
+        "Most electricity is made in power plants. Inside many of them is a machine called a generator. When a big coil of wire spins near powerful magnets, electricity starts to flow through the wire. To keep the generator spinning, power plants use steam from burning coal or natural gas, falling water from dams, wind turning giant blades, or heat from deep underground. Solar panels are different: they turn sunlight directly into electricity without spinning anything.",
+        "From the power plant, electricity rushes along thick wires held up by tall towers. These are called transmission lines. The electricity travels at a very high voltage so that less of it is wasted over long distances. Before it reaches your neighborhood, machines called transformers lower the voltage to a safer level for homes, schools and stores.",
+        "Electricity flows only when it has a complete path, called a circuit. Materials that let electricity pass through easily, like copper and other metals, are called conductors. Materials that block it, like rubber and plastic, are called insulators. That is why electrical wires are made of copper covered in plastic.",
+        "Electricity is useful, but it can be very dangerous. Never touch outlets or wires with wet hands, never poke objects into sockets, and stay far away from fallen power lines."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "What is the machine inside a power plant that makes electricity called?", "accepted": [["generator"]], "answerText": "A generator" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "What do transformers do before electricity reaches homes?", "options": ["They lower the voltage to a safer level", "They turn electricity into water", "They make the wires longer"], "answer": 0 },
+        { "id": "q3", "type": "choice", "skill": "vocabulary", "prompt": "Which of these is an insulator?", "options": ["Copper", "Rubber", "A metal spoon"], "answer": 1 },
+        { "id": "q4", "type": "choice", "skill": "sequence", "prompt": "On electricity's journey, what comes right after the power plant?", "options": ["Transmission lines on tall towers", "The light switch in your room", "Solar panels"], "answer": 0 },
+        { "id": "q5", "type": "choice", "skill": "inference", "prompt": "Why are electrical wires made of copper covered in plastic?", "options": ["The copper carries the electricity, and the plastic keeps people safe", "The plastic makes electricity faster", "Copper and plastic are the same color"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "tandang-sora",
+      "level": "pink",
+      "title": "Tandang Sora: Mother of the Revolution",
+      "topic": "Philippine Heroes",
+      "icon": "healing",
+      "paragraphs": [
+        "Melchora Aquino was born on January 6, 1812, in Banlat, a village in what is now Quezon City. She grew up to be a kind and hardworking woman who ran a small store and farmed rice and sugarcane. People lovingly called her Tandang Sora, meaning Old Sora, because she lived to a very old age.",
+        "In 1896, when the Philippine Revolution against Spain began, Tandang Sora was already 84 years old. She was too old to fight, but she found another way to help. She opened her home to members of the Katipunan. She fed hungry revolutionaries, cared for wounded fighters, gave them medicine, and let them hide and hold secret meetings in her home.",
+        "Spanish soldiers soon found out. They arrested Tandang Sora and questioned her, but she refused to give away the names or hiding places of the Katipuneros. As punishment, she was sent far from home, into exile on the island of Guam.",
+        "After Spain lost control of the Philippines, Tandang Sora returned home in 1903. She lived quietly until she died in 1919, at the age of 107.",
+        "Today, Tandang Sora is honored as the Mother of the Philippine Revolution. A major avenue in Quezon City is named after her, and her story reminds Filipinos that everyone, young or old, can serve their country with courage and kindness."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "What does the name Tandang Sora mean?", "accepted": [["old"]], "answerText": "Old Sora" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "How old was Tandang Sora when the revolution began in 1896?", "options": ["18", "84", "107"], "answer": 1 },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "How did Tandang Sora help the Katipunan?", "options": ["She led soldiers into battle", "She fed, hid and cared for the revolutionaries", "She built ships for them"], "answer": 1 },
+        { "id": "q4", "type": "text", "skill": "details", "prompt": "Where was Tandang Sora sent into exile?", "accepted": [["guam"]], "answerText": "Guam" },
+        { "id": "q5", "type": "choice", "skill": "mainIdea", "prompt": "What lesson does her story teach?", "options": ["Only young people can help their country", "Anyone, young or old, can serve their country with courage and kindness", "Stores are good places for meetings"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "glaciers-and-icebergs",
+      "level": "pink",
+      "title": "Glaciers and Icebergs",
+      "topic": "Earth Science",
+      "icon": "snow",
+      "paragraphs": [
+        "In the coldest places on Earth, near the North and South Poles and high in tall mountains, snow falls year after year without ever fully melting. Over hundreds of years, the layers of snow pile up and press down on each other until they turn into thick, solid ice. A huge body of ice like this, heavy enough to move, is called a glacier.",
+        "It may be hard to believe, but glaciers flow like very slow rivers. Pulled by their own enormous weight, they creep downhill, sometimes only a few centimeters a day. As they move, they scrape the land beneath them, carving out valleys and carrying rocks for long distances.",
+        "When a glacier reaches the sea, big chunks can crack off its front and crash into the water. This is called calving, and the floating chunks are icebergs. Only about one-tenth of an iceberg shows above the water; the other nine-tenths are hidden below the surface. That is why people say something is just \"the tip of the iceberg\" when there is much more to it than we can see.",
+        "Hidden ice can be dangerous. In 1912, the ship Titanic struck an iceberg in the North Atlantic Ocean and sank. Today, ships use radar and satellites to keep track of icebergs.",
+        "Glaciers and ice sheets hold most of the fresh water on our planet. As Earth grows warmer, many glaciers are melting and shrinking. Their meltwater flows into the oceans and makes sea levels rise, which is a serious concern for island nations like the Philippines."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "What is it called when chunks of ice break off a glacier into the sea?", "accepted": [["calving"]], "answerText": "Calving" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "About how much of an iceberg is hidden below the water?", "options": ["One-tenth", "Half", "Nine-tenths"], "answer": 2 },
+        { "id": "q3", "type": "choice", "skill": "sequence", "prompt": "What happens right after layers of snow pile up for hundreds of years?", "options": ["They press down and turn into solid ice", "They melt into a lake", "They turn into clouds"], "answer": 0 },
+        { "id": "q4", "type": "choice", "skill": "vocabulary", "prompt": "If someone says a problem is \"just the tip of the iceberg,\" what do they mean?", "options": ["The problem is very cold", "There is much more to the problem than we can see", "The problem is already solved"], "answer": 1 },
+        { "id": "q5", "type": "choice", "skill": "inference", "prompt": "Why are melting glaciers a concern for the Philippines?", "options": ["Meltwater raises sea levels, which threatens islands and coasts", "The Philippines will start getting snow", "Glaciers will float to Manila"], "answer": 0 }
+      ]
     }
   ]
 }

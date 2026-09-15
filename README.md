@@ -9,7 +9,7 @@ comprehension, starring RED the red panda.
   time, words per minute, the correct answers, advice based on the skills they
   missed, and a "Save as PDF" option.
 - **Materials**: six colour levels, from Green (easiest) to Orange (hardest),
-  with 3 topic cards each. Reading is untimed, children can peek at the story
+  with 6 topic cards each (never the same topics as Assess). Reading is untimed, children can peek at the story
   while answering, earn up to 3 stars and retry. Every card can be printed or
   saved as a PDF worksheet.
 - **Read-aloud**: uses the device's built-in voice (free, via `flutter_tts`).
@@ -118,8 +118,12 @@ small typos in longer words. `skill` is one of `details`, `vocabulary`,
 C:\flutter\bin\dart.bat run tool/upload_content.dart --dry-run
 ```
 
-This checks every level, story and question (for example, that each typed
-question's model answer is accepted by its own keywords) and uploads nothing.
+This checks every level, story and question and uploads nothing. For example,
+each typed question's model answer must be accepted by its own keywords, and
+assessment topics must stay exclusive: a Materials story whose title shares a
+topic word with an assessment card (say, "Mars" in both) is rejected. Common
+title words such as "amazing" or "your" are ignored. The check only compares
+titles, so still read new stories with a teacher's eye for overlapping topics.
 
 ### 3. Publish it
 

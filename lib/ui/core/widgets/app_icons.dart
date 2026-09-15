@@ -47,6 +47,19 @@ abstract final class AppIcons {
     'galaxy': Icons.blur_circular_rounded,
     'flag': Icons.flag_rounded,
     'bubbles': Icons.bubble_chart_rounded,
+    'bug': Icons.bug_report_rounded,
+    'hand': Icons.back_hand_rounded,
+    'landscape': Icons.landscape_rounded,
+    'terrain': Icons.terrain_rounded,
+    'compass': Icons.explore_rounded,
+    'tree': Icons.nature_rounded,
+    'bird': Icons.flutter_dash_rounded,
+    'bone': Icons.accessibility_new_rounded,
+    'bolt': Icons.bolt_rounded,
+    'healing': Icons.healing_rounded,
+    'science': Icons.biotech_rounded,
+    'pyramid': Icons.change_history_rounded,
+    'robot': Icons.smart_toy_rounded,
   };
 
   static IconData of(String key) => _icons[key] ?? Icons.auto_stories_rounded;
