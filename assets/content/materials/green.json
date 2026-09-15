@@ -1,0 +1,62 @@
+{
+  "passages": [
+    {
+      "id": "red-panda",
+      "level": "green",
+      "title": "The Red Panda",
+      "topic": "Animals",
+      "icon": "pets",
+      "paragraphs": [
+        "Red pandas are small, furry animals with red-brown fur and long, bushy tails. They are about the size of a house cat.",
+        "Red pandas live in cool mountain forests in Asia, in places like Nepal, Bhutan and China. They spend most of their time up in the trees. They even sleep on high branches.",
+        "Their favorite food is bamboo. They eat the soft leaves and shoots. Sometimes they also eat fruit, acorns and eggs.",
+        "When the weather is cold, a red panda wraps its fluffy tail around its body like a warm blanket. Cozy!",
+        "Sadly, there are not many red pandas left in the wild. People are working hard to protect the forests where they live."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What is the red panda's favorite food?", "options": ["Fish", "Bamboo", "Grass"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "Where do red pandas sleep?", "accepted": [["tree", "branch"]], "answerText": "On high tree branches" },
+        { "id": "q3", "type": "choice", "skill": "inference", "prompt": "The story says the tail is like a warm blanket. What does that tell us about the tail?", "options": ["It is soft and keeps the panda warm", "It is thin and cold", "It helps the panda swim"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "tortoise-and-hare",
+      "level": "green",
+      "title": "The Tortoise and the Hare",
+      "topic": "Fables",
+      "icon": "trophy",
+      "paragraphs": [
+        "Hare was the fastest animal in the forest, and he liked to brag about it. \"No one can beat me in a race!\" he said.",
+        "Tortoise was slow, but he was tired of hearing Hare boast. \"I will race you,\" said Tortoise. All the animals laughed.",
+        "The race began. Hare zoomed far ahead. Soon he could not even see Tortoise. \"I have lots of time,\" said Hare. \"I will take a little nap.\"",
+        "Tortoise kept walking, step by step. He did not stop. He walked right past the sleeping Hare.",
+        "When Hare woke up, he ran as fast as he could. But it was too late. Tortoise had already crossed the finish line!",
+        "Slow and steady wins the race."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "sequence", "prompt": "What did Hare do after he zoomed far ahead?", "options": ["He took a nap", "He helped Tortoise", "He went home"], "answer": 0 },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "Who won the race?", "accepted": [["tortoise", "turtle"]], "answerText": "Tortoise" },
+        { "id": "q3", "type": "choice", "skill": "mainIdea", "prompt": "What is the lesson of the story?", "options": ["Slow and steady wins the race", "Always take a nap", "Fast animals are mean"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "egg-to-butterfly",
+      "level": "green",
+      "title": "From Egg to Butterfly",
+      "topic": "Nature",
+      "icon": "flower",
+      "paragraphs": [
+        "Did you know that a butterfly starts its life as a tiny egg? A mother butterfly lays her eggs on a leaf.",
+        "When an egg hatches, a caterpillar crawls out. The hungry caterpillar eats and eats. It grows bigger and bigger.",
+        "Next, the caterpillar makes a hard shell around itself. This shell is called a chrysalis. Inside, the caterpillar slowly changes.",
+        "Finally, the chrysalis opens and a butterfly comes out! It dries its wings and flies away to find flowers.",
+        "Here is a fun fact: butterflies can taste with their feet!"
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What crawls out when a butterfly egg hatches?", "options": ["A butterfly", "A caterpillar", "A ladybug"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What is the hard shell around the caterpillar called?", "accepted": [["chrysalis"]], "answerText": "A chrysalis" },
+        { "id": "q3", "type": "choice", "skill": "sequence", "prompt": "What happens LAST in the story?", "options": ["The caterpillar eats leaves", "The butterfly flies away to find flowers", "The mother lays her eggs"], "answer": 1 }
+      ]
+    }
+  ]
+}

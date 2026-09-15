@@ -1,0 +1,64 @@
+{
+  "passages": [
+    {
+      "id": "mars",
+      "level": "aqua",
+      "title": "The Red Planet: Mars",
+      "topic": "Space",
+      "icon": "rocket",
+      "paragraphs": [
+        "Mars is the fourth planet from the Sun. When you look at it through a telescope, it looks orange-red. That is why people call it the Red Planet.",
+        "Mars gets its color from its dusty ground. The dust has iron in it, and the iron has turned to rust, just like an old bike left out in the rain.",
+        "The planet was named after Mars, the Roman god of war. The Romans thought its red color looked like the color of battle.",
+        "Mars has two small moons called Phobos and Deimos. It also has the tallest volcano we know of in the whole solar system. It is called Olympus Mons, and it is about two and a half times taller than Mount Everest!",
+        "No people have visited Mars yet, but robot rovers are exploring it. They take pictures and study rocks to learn if tiny living things were ever there."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "Mars was named after the Roman god of what?", "options": ["Beauty", "War", "The sea"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What nickname do people give Mars?", "accepted": [["red planet"]], "answerText": "The Red Planet" },
+        { "id": "q3", "type": "text", "skill": "details", "prompt": "What are the names of the two moons of Mars?", "accepted": [["phobos"], ["deimos"]], "answerText": "Phobos and Deimos" },
+        { "id": "q4", "type": "choice", "skill": "mainIdea", "prompt": "What is this text mostly about?", "options": ["How to build a rocket", "Facts about the planet Mars", "The Roman god of war"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "honeybees",
+      "level": "aqua",
+      "title": "Busy Honeybees",
+      "topic": "Insects",
+      "icon": "bee",
+      "paragraphs": [
+        "A honeybee may be tiny, but it is a very hard worker. Honeybees live together in a big group called a colony. A colony can have thousands of bees!",
+        "Every colony has one queen bee. Her job is to lay eggs. Most of the other bees are worker bees. They build the hive, keep it clean, look after the baby bees and gather food.",
+        "Worker bees fly from flower to flower to drink a sweet liquid called nectar. Back at the hive, they turn the nectar into honey and store it in little wax rooms called cells.",
+        "How does a bee tell its friends where the best flowers are? It dances! Its wiggly waggle dance shows the other bees which way to fly and how far to go.",
+        "Bees also carry pollen from one flower to another. This helps plants make seeds and fruit. Without bees, we would have much less food to eat."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What is the queen bee's job?", "options": ["To make honey", "To lay eggs", "To guard the flowers"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What is the sweet liquid that bees drink from flowers called?", "accepted": [["nectar"]], "answerText": "Nectar" },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "How does a bee show other bees where to find flowers?", "options": ["It sings a song", "It does a dance", "It draws a map"], "answer": 1 },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why would we have less food without bees?", "options": ["Bees eat all the fruit", "Bees carry pollen that helps plants make seeds and fruit", "Bees scare farmers away"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "ugly-duckling",
+      "level": "aqua",
+      "title": "The Ugly Duckling",
+      "topic": "Fairy Tales",
+      "icon": "egg",
+      "paragraphs": [
+        "One summer, a mother duck sat on her nest by the pond. One by one, her eggs cracked open and fluffy yellow ducklings came out. But the last egg was the biggest, and the bird that hatched from it was large and gray.",
+        "\"What an ugly duckling!\" the other animals said. They teased him and pushed him away. The little bird felt so sad and lonely that he ran away from the farm.",
+        "All through the cold winter, he hid among the tall reeds of a frozen lake. He was cold and hungry, but he did not give up.",
+        "When spring came, he saw beautiful white birds gliding on the water. He swam to them shyly. Then he looked down at his reflection. He was not a gray duckling anymore. He was a graceful white swan!",
+        "The other swans welcomed him, and he was happy at last."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "Why did the other animals tease the little bird?", "options": ["He looked different from the other ducklings", "He was too noisy", "He ate all the food"], "answer": 0 },
+        { "id": "q2", "type": "choice", "skill": "sequence", "prompt": "What happened right after the bird ran away from the farm?", "options": ["He met the swans", "He hid by a frozen lake all winter", "He went back to his mother"], "answer": 1 },
+        { "id": "q3", "type": "text", "skill": "details", "prompt": "What did the ugly duckling grow up to be?", "accepted": [["swan"]], "answerText": "A beautiful white swan" },
+        { "id": "q4", "type": "choice", "skill": "mainIdea", "prompt": "What lesson does the story teach?", "options": ["Being different is bad", "Be kind, because everyone grows in their own way", "Ducks are better than swans"], "answer": 1 }
+      ]
+    }
+  ]
+}

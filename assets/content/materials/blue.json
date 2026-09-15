@@ -1,0 +1,64 @@
+{
+  "passages": [
+    {
+      "id": "mayon-volcano",
+      "level": "blue",
+      "title": "Mayon Volcano",
+      "topic": "Philippines",
+      "icon": "volcano",
+      "paragraphs": [
+        "In the province of Albay, in the Bicol Region of the Philippines, stands one of the most beautiful mountains in the world. It is Mayon Volcano, and it is famous for its almost perfect cone shape.",
+        "Mayon is about 2,460 meters tall. It is an active volcano, which means it can still erupt. In fact, it is one of the most active volcanoes in the country. Scientists from PHIVOLCS watch it closely so they can warn the people living nearby when it becomes restless.",
+        "Long ago, in 1814, Mayon had a powerful eruption. Hot rocks and ash buried the town of Cagsawa. Today, only the old bell tower of the town's church still stands. Visitors come to see these ruins with the volcano rising behind them.",
+        "Its name comes from the Bikol word \"magayon,\" which means beautiful. A local legend tells of a lovely maiden named Daragang Magayon, and some people say the volcano is her resting place.",
+        "Even though it can be dangerous, Mayon brings good things too. Its ash makes the soil rich, so farmers around it can grow crops like rice and abaca."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "In what province is Mayon Volcano found?", "options": ["Albay", "Cebu", "Batangas"], "answer": 0 },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "The name Mayon comes from the Bikol word \"magayon.\" What does magayon mean?", "accepted": [["beautiful", "pretty", "lovely"]], "answerText": "Beautiful" },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "What is left of the town of Cagsawa today?", "options": ["A big market", "The bell tower of its old church", "A school"], "answer": 1 },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why do scientists watch Mayon closely?", "options": ["So they can warn nearby people before it erupts", "To count the tourists", "To measure how much it grows each day"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "water-cycle",
+      "level": "blue",
+      "title": "The Water Cycle",
+      "topic": "Science",
+      "icon": "drop",
+      "paragraphs": [
+        "The water you drink today might once have been part of a cloud, an ocean, or even a dinosaur's drinking pond! That is because Earth keeps using the same water again and again in a never-ending journey called the water cycle.",
+        "The journey begins with evaporation. When the Sun heats water in oceans, rivers and lakes, some of it turns into an invisible gas called water vapor. The vapor rises up into the sky.",
+        "High in the sky, the air is cooler. The water vapor cools down and turns back into tiny drops of water. This is called condensation. Millions of these tiny drops gather together to form clouds.",
+        "When the drops in a cloud join together and become too heavy, they fall back to the ground as rain, snow or hail. This step is called precipitation.",
+        "Finally, the water collects in oceans, lakes, rivers and under the ground. Plants and animals use some of it. Then the Sun warms the water again, and the cycle starts all over."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "sequence", "prompt": "Which step of the water cycle comes FIRST in the text?", "options": ["Precipitation", "Evaporation", "Condensation"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What do we call it when water falls from clouds as rain, snow or hail?", "accepted": [["precipitation"]], "answerText": "Precipitation" },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "What are clouds made of?", "options": ["Smoke from factories", "Millions of tiny drops of water", "Cotton and air"], "answer": 1 },
+        { "id": "q4", "type": "choice", "skill": "mainIdea", "prompt": "What is the main idea of the text?", "options": ["Earth's water moves around in a cycle again and again", "Dinosaurs drank from ponds", "Rain is always cold"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "golden-goose",
+      "level": "blue",
+      "title": "The Goose That Laid the Golden Eggs",
+      "topic": "Fables",
+      "icon": "sparkle",
+      "paragraphs": [
+        "Once upon a time, a poor farmer and his wife lived in a small house with a few animals. One morning, the farmer went to collect eggs and found something amazing. In his goose's nest was an egg made of shining gold!",
+        "He could hardly believe it. He took the egg to the market and sold it for a lot of money. The next morning, the goose laid another golden egg, and the next morning, another. Soon the farmer and his wife were rich.",
+        "But as they grew richer, they also grew greedy. \"One egg a day is too slow,\" said the farmer. \"The goose must be full of gold inside. If we cut it open, we can take all the gold at once!\"",
+        "So they did. But inside the goose they found no gold at all. It was just like any other goose. Now their goose was gone, and there would never be another golden egg.",
+        "The farmer and his wife learned a hard lesson: people who want too much, too fast, can end up losing everything they have."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What did the farmer find in the goose's nest?", "options": ["A silver spoon", "An egg made of gold", "A baby chick"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "How many golden eggs did the goose lay each day?", "accepted": [["1", "a golden egg", "an egg"]], "answerText": "One golden egg a day" },
+        { "id": "q3", "type": "choice", "skill": "sequence", "prompt": "What did the farmer and his wife do after they became rich?", "options": ["They gave the goose away", "They cut the goose open to get all the gold", "They moved to the city"], "answer": 1 },
+        { "id": "q4", "type": "choice", "skill": "mainIdea", "prompt": "What is the lesson of this fable?", "options": ["Geese are smart animals", "Wanting too much, too fast, can make you lose everything", "Golden eggs are heavy"], "answer": 1 }
+      ]
+    }
+  ]
+}

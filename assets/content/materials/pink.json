@@ -1,0 +1,67 @@
+{
+  "passages": [
+    {
+      "id": "coral-reefs",
+      "level": "pink",
+      "title": "Coral Reefs: Cities Under the Sea",
+      "topic": "Ocean",
+      "icon": "reef",
+      "paragraphs": [
+        "Beneath the warm, clear waters of tropical seas lie some of the busiest places on the planet: coral reefs. They are often called the rainforests of the sea because so many living things make their homes there.",
+        "Many people think coral is a rock or a plant, but it is actually an animal! A coral reef is built by tiny creatures called polyps. Each polyp has a soft body and makes a hard, stony skeleton around itself. When millions of polyps live together for hundreds of years, their skeletons pile up and form a reef.",
+        "Coral polyps have special partners: tiny algae that live inside their bodies. The algae use sunlight to make food, and they share it with the coral. In return, the coral gives the algae a safe home. The algae also give coral many of its bright colors. This kind of teamwork, where both partners help each other, is called symbiosis.",
+        "Coral reefs cover less than one percent of the ocean floor, yet about a quarter of all ocean species depend on them. Fish, sea turtles, sharks, clams and octopuses find food and shelter among the corals. The Philippines is home to Tubbataha Reefs Natural Park, a protected reef in the Sulu Sea that is a UNESCO World Heritage Site.",
+        "Sadly, reefs are in danger. When the ocean becomes too warm, corals push out their algae and turn white. This is called coral bleaching. Without their algae, corals can starve. We can help by reducing pollution, protecting sea life and learning more about these underwater cities."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What kind of living thing is coral?", "options": ["A plant", "A rock", "An animal"], "answer": 2 },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What is the name for teamwork where both partners help each other?", "accepted": [["symbiosis"]], "answerText": "Symbiosis" },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "What gives coral many of its bright colors?", "options": ["Paint from divers", "The tiny algae living inside it", "Sunlight bouncing off rocks"], "answer": 1 },
+        { "id": "q4", "type": "text", "skill": "details", "prompt": "What is the name of the protected reef park in the Philippines mentioned in the text?", "accepted": [["tubbataha"]], "answerText": "Tubbataha Reefs Natural Park" },
+        { "id": "q5", "type": "choice", "skill": "inference", "prompt": "Why can coral starve after bleaching?", "options": ["It has lost the algae that make food for it", "The water becomes too cold", "Fish eat all of its food"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "how-sound-travels",
+      "level": "pink",
+      "title": "Good Vibrations: How Sound Travels",
+      "topic": "Science",
+      "icon": "hearing",
+      "paragraphs": [
+        "Clap your hands. Did you hear that? Every sound you have ever heard, from a whisper to a thunderclap, starts the same way: with a vibration. A vibration is a quick back-and-forth movement.",
+        "When you pluck a guitar string, it shakes back and forth very fast. The moving string pushes against the air around it and makes the tiny particles of air vibrate too. These particles bump into their neighbors, which bump into their neighbors, passing the vibration along like a wave. This is a sound wave.",
+        "When the sound wave reaches you, it enters your ear and makes your eardrum vibrate. Tiny bones inside your ear pass the vibrations along, and your brain turns them into the sounds you recognize.",
+        "Sound can travel through air, water and even solid things like wood and metal. In fact, it moves faster through water than through air, and faster still through solids like steel. But sound cannot travel through empty space, because there is no air to carry the vibrations. That is why space is completely silent!",
+        "Sound can also bounce. When a sound wave hits a hard surface, like a cliff, and bounces back, you hear an echo. Bats use echoes to find their way in the dark. They make high squeaks and listen for the echoes to learn where things are. This is called echolocation."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "In your own words, what is a vibration?", "accepted": [["back and forth", "shake", "shaking", "move", "moving", "movement", "wiggle"]], "answerText": "A quick back-and-forth movement" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "Which part of your ear vibrates when a sound wave reaches it?", "options": ["The eardrum", "The earlobe", "The ear wax"], "answer": 0 },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "Through which of these does sound travel FASTEST?", "options": ["Air", "Water", "Steel"], "answer": 2 },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why do astronauts need radios to talk to each other outside their spaceship?", "options": ["Space is too dark", "There is no air in space to carry the vibrations", "Their helmets are too big"], "answer": 1 },
+        { "id": "q5", "type": "text", "skill": "vocabulary", "prompt": "What do we call it when bats use echoes to find their way?", "accepted": [["echolocation"]], "answerText": "Echolocation" }
+      ]
+    },
+    {
+      "id": "jose-rizal",
+      "level": "pink",
+      "title": "José Rizal: A Hero Who Loved Learning",
+      "topic": "Philippine Heroes",
+      "icon": "book",
+      "paragraphs": [
+        "José Rizal is one of the national heroes of the Philippines. He was born on June 19, 1861, in the town of Calamba, Laguna. He was the seventh of eleven children in his family.",
+        "His first teacher was his mother, Teodora Alonso. She taught him to read when he was very young, and he quickly fell in love with books. As a boy, he also enjoyed drawing, painting and shaping figures out of clay.",
+        "Rizal was a brilliant student. He studied at the Ateneo Municipal de Manila and later at the University of Santo Tomas. Then he traveled to Europe to continue his studies. He became an eye doctor and even operated on his own mother's eyes. Rizal could speak many languages and was also a poet, an artist and a scientist.",
+        "At that time, the Philippines was ruled by Spain, and many Filipinos were treated unfairly. Rizal used his pen instead of weapons to fight for change. He wrote two famous novels, Noli Me Tangere and El Filibusterismo, which showed the problems in Philippine society and inspired Filipinos to love their country.",
+        "The Spanish government saw him as a threat, and he was executed on December 30, 1896. His ideas lived on, however, and helped inspire the fight for freedom. Today, Filipinos remember him every December 30, which is known as Rizal Day."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "details", "prompt": "In what town was José Rizal born?", "accepted": [["calamba"]], "answerText": "Calamba, Laguna" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "Who was Rizal's first teacher?", "options": ["His father", "His mother, Teodora Alonso", "His older sister"], "answer": 1 },
+        { "id": "q3", "type": "choice", "skill": "inference", "prompt": "The text says Rizal used his \"pen instead of weapons.\" What does this mean?", "options": ["He fought for change through his writing", "He collected many pens", "He was a soldier"], "answer": 0 },
+        { "id": "q4", "type": "text", "skill": "details", "prompt": "Name one of the two famous novels Rizal wrote.", "accepted": [["noli me tangere", "noli", "el filibusterismo", "filibusterismo"]], "answerText": "Noli Me Tangere or El Filibusterismo" },
+        { "id": "q5", "type": "choice", "skill": "sequence", "prompt": "Which of these happened LAST in Rizal's life?", "options": ["He studied at the Ateneo", "He wrote his two novels", "He was executed in 1896"], "answer": 2 }
+      ]
+    }
+  ]
+}

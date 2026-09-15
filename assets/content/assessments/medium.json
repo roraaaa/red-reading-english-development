@@ -1,0 +1,177 @@
+{
+  "passages": [
+    {
+      "id": "assess-intramuros",
+      "difficulty": "medium",
+      "title": "Intramuros: The Walled City",
+      "topic": "Philippine History",
+      "icon": "church",
+      "color": "#E0843D",
+      "paragraphs": [
+        "In the middle of busy, modern Manila is a very old neighborhood surrounded by thick stone walls. It is called Intramuros, a Spanish word that means \"within the walls.\"",
+        "In 1571, the Spanish conquistador Miguel López de Legazpi made Manila the capital of the Spanish colony in the Philippines. The city grew near the mouth of the Pasig River. To protect it from pirates and foreign enemies, the Spanish later surrounded it with high stone walls, forts and a moat.",
+        "For more than 300 years, Intramuros was the center of government, religion and education in the Philippines. Inside its walls stood grand churches, schools and the homes of important families.",
+        "One famous place inside is Fort Santiago. The national hero José Rizal was held prisoner there before he was executed in 1896. Another is San Agustin Church, the oldest stone church in the country and a UNESCO World Heritage Site.",
+        "During World War II, much of Intramuros was destroyed in the Battle of Manila in 1945. Many buildings were later rebuilt. Today, visitors can walk along the old walls or ride a horse-drawn kalesa through its streets and imagine life long ago."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "What does the Spanish word \"Intramuros\" mean?", "accepted": [["within the wall", "inside the wall", "in the wall"]], "answerText": "Within the walls" },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "Where is Intramuros located? Include the city and the country.", "accepted": [["manila"], ["philippine"]], "answerText": "Manila, Philippines" },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "Why did the Spanish build walls around the city?", "options": ["To protect it from pirates and enemies", "To keep the river out", "To make it look pretty"], "answer": 0 },
+        { "id": "q4", "type": "choice", "skill": "details", "prompt": "Which national hero was held prisoner in Fort Santiago?", "options": ["Andres Bonifacio", "José Rizal", "Lapu-Lapu"], "answer": 1 },
+        { "id": "q5", "type": "choice", "skill": "mainIdea", "prompt": "Why is Intramuros an important historical place?", "options": ["It was the center of government, religion and education for over 300 years", "It is the newest mall in Manila", "It has the tallest building in Asia"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "assess-rainforests",
+      "difficulty": "medium",
+      "title": "Rainforests: Earth's Green Treasure",
+      "topic": "Nature",
+      "icon": "forest",
+      "color": "#2EAD5F",
+      "paragraphs": [
+        "Rainforests are thick, warm forests where it rains almost every day. Some rainforests get more than 250 centimeters of rain every year. The largest rainforest in the world is the Amazon in South America.",
+        "A rainforest is like a building with four floors. At the very top is the emergent layer, where the tallest trees poke out above the rest. Below it is the canopy, a thick roof of leaves and branches where many monkeys, birds and snakes live. Under the canopy is the understory, a dim and shady place. At the bottom is the forest floor, where very little sunlight reaches.",
+        "Rainforests cover only a small part of Earth's land, but more than half of all the kinds of plants and animals in the world live in them. Many medicines, fruits and spices first came from rainforest plants. Even chocolate comes from the beans of the cacao tree, a rainforest plant.",
+        "Rainforests also help the whole planet. Their trees take in carbon dioxide and give off oxygen. Sadly, huge areas are cut down every year for wood and farmland. Protecting rainforests means protecting homes for millions of living things, including us."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "details", "prompt": "What is the largest rainforest in the world?", "accepted": [["amazon"]], "answerText": "The Amazon, in South America" },
+        { "id": "q2", "type": "choice", "skill": "sequence", "prompt": "Starting from the TOP, which layer comes right after the emergent layer?", "options": ["The forest floor", "The canopy", "The understory"], "answer": 1 },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "Why is the forest floor so dark?", "options": ["Very little sunlight reaches it", "It is always night there", "The soil is black"], "answer": 0 },
+        { "id": "q4", "type": "choice", "skill": "vocabulary", "prompt": "The canopy is called a \"roof of leaves.\" What does that tell you about it?", "options": ["It covers the forest below it", "It is made of metal", "It is on the ground"], "answer": 0 },
+        { "id": "q5", "type": "choice", "skill": "mainIdea", "prompt": "What is the main idea of the last paragraph?", "options": ["Rainforests help the planet and need protecting", "Chocolate is delicious", "Wood is used to build houses"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "assess-tarsier",
+      "difficulty": "medium",
+      "title": "The Philippine Tarsier",
+      "topic": "Philippine Animals",
+      "icon": "eye",
+      "color": "#8D6E63",
+      "paragraphs": [
+        "In the forests of Bohol and other islands in the southern Philippines lives one of the smallest primates in the world: the Philippine tarsier. An adult tarsier is only about as long as a grown-up's hand, not counting its long, skinny tail.",
+        "The tarsier's most famous feature is its huge eyes. Each eye is about as big as its whole brain! Its eyes are so large that they cannot move inside its head. Instead, a tarsier turns its head around to look almost directly behind it.",
+        "Tarsiers are nocturnal, which means they sleep during the day and are active at night. After dark, they hunt insects such as crickets and grasshoppers. They use their long back legs to leap from tree to tree, and their long fingers with padded tips help them grip branches tightly.",
+        "Tarsiers are shy and sensitive. Loud noises, camera flashes and being touched can make them very stressed. That is why places like the Philippine Tarsier Sanctuary in Corella, Bohol, protect their forest homes and ask visitors to stay quiet and keep their distance."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "Where does the Philippine tarsier live?", "options": ["In the deserts of Africa", "In forests on islands such as Bohol", "In icy mountains"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What word in the text means sleeping during the day and being active at night?", "accepted": [["nocturnal"]], "answerText": "Nocturnal" },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "Why does a tarsier turn its head to look around?", "options": ["Its eyes are too big to move inside its head", "It has no neck bones", "It wants to scare insects"], "answer": 0 },
+        { "id": "q4", "type": "text", "skill": "details", "prompt": "What does a tarsier eat?", "accepted": [["insect", "cricket", "grasshopper", "bug"]], "answerText": "Insects, like crickets and grasshoppers" },
+        { "id": "q5", "type": "choice", "skill": "inference", "prompt": "Why do sanctuaries ask visitors to stay quiet and keep their distance?", "options": ["So visitors can hear the birds", "Because noise and touching can stress the tarsiers", "Because tarsiers bite everyone"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "assess-earthquakes",
+      "difficulty": "medium",
+      "title": "Earthquakes: Duck, Cover and Hold",
+      "topic": "Safety",
+      "icon": "shield",
+      "color": "#6D4C41",
+      "paragraphs": [
+        "The ground beneath our feet may seem solid and still, but Earth's outer layer is broken into giant pieces called tectonic plates. These plates move very slowly, only a few centimeters each year. Sometimes their edges get stuck. When they suddenly slip, the ground shakes. This is an earthquake.",
+        "The Philippines lies along the Pacific Ring of Fire, a huge area around the Pacific Ocean where many earthquakes happen and many volcanoes are found. That is why schools in the Philippines hold earthquake drills.",
+        "If you feel an earthquake indoors, remember three words: Duck, Cover and Hold. Duck down low to the floor. Cover your head and neck, and crawl under a sturdy table if you can. Hold on to the table until the shaking stops. Stay away from windows, glass and tall shelves that might fall.",
+        "When the shaking ends, walk calmly outside to an open area, away from buildings, trees and electric wires. Do not use elevators. Be ready, too, because smaller earthquakes called aftershocks can follow a big one."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "What are the giant pieces of Earth's outer layer called?", "accepted": [["tectonic plate", "plate"]], "answerText": "Tectonic plates" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "What makes the ground shake in an earthquake?", "options": ["Strong winds", "Stuck plates suddenly slipping", "Heavy rain"], "answer": 1 },
+        { "id": "q3", "type": "choice", "skill": "sequence", "prompt": "During an earthquake, what should you do right after you duck down low?", "options": ["Run outside", "Cover your head and neck", "Use the elevator"], "answer": 1 },
+        { "id": "q4", "type": "text", "skill": "details", "prompt": "Where should you go when the shaking ends?", "accepted": [["open", "outside"]], "answerText": "Outside to an open area" },
+        { "id": "q5", "type": "choice", "skill": "inference", "prompt": "Why do schools in the Philippines hold earthquake drills?", "options": ["The country is on the Pacific Ring of Fire, where earthquakes are common", "Drills are a fun game", "Earthquakes only happen at school"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "assess-legend-of-the-pineapple",
+      "difficulty": "medium",
+      "title": "The Legend of the Pineapple",
+      "topic": "Filipino Folk Tales",
+      "icon": "spa",
+      "color": "#B8860B",
+      "paragraphs": [
+        "Long ago, in a small village, there lived a mother named Aling Rosa and her only daughter, Pina. Aling Rosa loved Pina very much and did everything for her, so Pina never learned to do chores on her own.",
+        "One day, Aling Rosa became sick and had to stay in bed. She asked Pina to cook rice porridge. Pina went to the kitchen, but soon she called, \"Mother, where is the pot?\" Then, \"Mother, where is the ladle?\" Pina asked about everything, even when it was right in front of her.",
+        "Tired and weak, Aling Rosa finally cried out, \"Oh, I wish you had a thousand eyes so you could see everything you are looking for!\" Suddenly, the house became quiet. Pina was nowhere to be found.",
+        "When Aling Rosa was well again, she searched everywhere, but Pina had disappeared. Months later, she found a strange plant growing in her yard. Its fruit was round and covered with what looked like many eyes. Remembering her words, Aling Rosa wept. She named the fruit pinya, after her daughter.",
+        "To this day, Filipinos tell this story to remind children to look carefully and to help at home."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "Why did Pina never learn to do chores?", "options": ["Her mother did everything for her", "She was always at school", "She did not like the kitchen"], "answer": 0 },
+        { "id": "q2", "type": "choice", "skill": "sequence", "prompt": "What happened right after Aling Rosa wished Pina had a thousand eyes?", "options": ["Pina cooked the porridge", "The house became quiet and Pina disappeared", "A pineapple grew in the yard"], "answer": 1 },
+        { "id": "q3", "type": "text", "skill": "details", "prompt": "What did Aling Rosa find growing in her yard months later?", "accepted": [["plant", "fruit", "pineapple", "pinya"]], "answerText": "A strange plant with a fruit covered in eyes" },
+        { "id": "q4", "type": "text", "skill": "vocabulary", "prompt": "What name did Aling Rosa give the fruit?", "accepted": [["pinya", "pineapple"]], "answerText": "Pinya" },
+        { "id": "q5", "type": "choice", "skill": "mainIdea", "prompt": "What lesson does the legend teach?", "options": ["Pineapples are healthy", "Look carefully for things and help out at home", "Never cook when you are sick"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "assess-how-airplanes-fly",
+      "difficulty": "medium",
+      "title": "How Airplanes Fly",
+      "topic": "Science",
+      "icon": "flight",
+      "color": "#1E88E5",
+      "paragraphs": [
+        "A big passenger airplane can weigh as much as dozens of elephants, yet it soars through the sky. How is that possible? Four forces are always at work on a plane in flight: lift, weight, thrust and drag.",
+        "Weight is the pull of gravity, dragging the plane down toward the ground. To stay in the air, a plane needs lift, a force that pushes it up. Lift comes from the wings. Their special curved shape and tilt push air downward as the plane moves, and the air pushes the wings upward in return.",
+        "Thrust is the force that moves the plane forward. It comes from the plane's engines or propellers. Drag is the force of the air pushing back against the plane and slowing it down. Airplanes have smooth, pointed shapes to reduce drag.",
+        "To take off, a plane speeds down the runway. As it goes faster, more air flows over its wings and the lift grows stronger. When lift becomes greater than weight, the plane rises into the air.",
+        "The first powered airplane flight happened in 1903, when the Wright brothers flew their plane for 12 seconds in North Carolina, in the United States. Today, airplanes carry millions of people around the world every day."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What are the four forces acting on a plane?", "options": ["Lift, weight, thrust and drag", "Wind, rain, sun and snow", "Speed, color, size and sound"], "answer": 0 },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "Which part of the plane creates lift?", "accepted": [["wing"]], "answerText": "The wings" },
+        { "id": "q3", "type": "text", "skill": "vocabulary", "prompt": "What is the force of the air pushing back against the plane called?", "accepted": [["drag"]], "answerText": "Drag" },
+        { "id": "q4", "type": "choice", "skill": "sequence", "prompt": "During takeoff, what happens right before the plane rises into the air?", "options": ["Lift becomes greater than weight", "The engines turn off", "Drag becomes stronger than thrust"], "answer": 0 },
+        { "id": "q5", "type": "text", "skill": "details", "prompt": "In what year was the first powered airplane flight?", "accepted": [["1903"]], "answerText": "1903" }
+      ]
+    },
+    {
+      "id": "assess-recycling",
+      "difficulty": "medium",
+      "title": "Give Trash a Second Life",
+      "topic": "Environment",
+      "icon": "recycle",
+      "color": "#43A047",
+      "paragraphs": [
+        "Every day, people throw away huge amounts of trash. Much of it ends up in landfills, rivers and oceans, where it can harm animals and pollute the land and water. Plastic is one of the biggest problems, because many plastic items take hundreds of years to break down.",
+        "The good news is that we can help by following the three Rs: reduce, reuse and recycle. To reduce means to use less, like bringing your own water bottle instead of buying drinks in plastic bottles. To reuse means to use something again, like turning an old jar into a pencil holder.",
+        "To recycle means to turn used materials into new products. Paper can become new notebooks, glass bottles can be melted into new bottles, and aluminum cans can be made into new cans again and again.",
+        "In the Philippines, a law called the Ecological Solid Waste Management Act asks households and schools to separate their trash. Biodegradable waste, like fruit peels and leaves, can be turned into compost that helps plants grow. Recyclable waste, like paper, bottles and cans, can be collected and sold to junk shops.",
+        "When everyone does a small part, less trash is wasted, and our planet stays cleaner for the animals and people who share it."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "Why is plastic one of the biggest trash problems?", "options": ["It is too colorful", "Many plastic items take hundreds of years to break down", "It is too heavy to carry"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "What are the three Rs?", "accepted": [["reduce"], ["reuse"], ["recycle"]], "answerText": "Reduce, reuse and recycle" },
+        { "id": "q3", "type": "choice", "skill": "vocabulary", "prompt": "In the text, what does it mean to reuse something?", "options": ["To throw it away", "To use it again", "To melt it down"], "answer": 1 },
+        { "id": "q4", "type": "text", "skill": "vocabulary", "prompt": "What can biodegradable waste like fruit peels be turned into?", "accepted": [["compost"]], "answerText": "Compost" },
+        { "id": "q5", "type": "choice", "skill": "mainIdea", "prompt": "What is the main idea of the text?", "options": ["Junk shops buy bottles", "We can all cut down on trash by reducing, reusing and recycling", "Aluminum cans are shiny"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "assess-your-heart",
+      "difficulty": "medium",
+      "title": "Your Amazing Heart",
+      "topic": "Human Body",
+      "icon": "heart",
+      "color": "#D32F2F",
+      "paragraphs": [
+        "Make a fist. Your heart is about the same size as your fist, and it is one of the hardest-working muscles in your body. It sits in your chest, a little to the left, protected by your ribs.",
+        "Your heart's job is to pump blood all around your body. Blood carries oxygen from your lungs and nutrients from your food to every part of you. Your heart beats about 100,000 times every day, even while you sleep.",
+        "The heart has four rooms, called chambers. The two upper chambers receive blood coming back to the heart, and the two lower chambers pump blood out. Blood travels away from the heart through tubes called arteries and comes back through tubes called veins.",
+        "You can feel your heart working by finding your pulse. Place two fingers gently on the side of your neck or on the inside of your wrist. Each little push you feel is a heartbeat.",
+        "To keep your heart strong, play and exercise every day, eat fruits and vegetables, and get plenty of sleep. When you run or jump, your heart beats faster to send more oxygen to your muscles."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "About how big is your heart?", "options": ["The size of a watermelon", "About the size of your fist", "The size of a pea"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "About how many times does your heart beat every day?", "accepted": [["100,000", "100000", "hundred thousand"]], "answerText": "About 100,000 times" },
+        { "id": "q3", "type": "text", "skill": "vocabulary", "prompt": "What are the four rooms of the heart called?", "accepted": [["chamber"]], "answerText": "Chambers" },
+        { "id": "q4", "type": "choice", "skill": "details", "prompt": "Which tubes carry blood away from the heart?", "options": ["Veins", "Arteries", "Lungs"], "answer": 1 },
+        { "id": "q5", "type": "choice", "skill": "inference", "prompt": "Why does your heart beat faster when you run?", "options": ["It is scared of running", "Your muscles need more oxygen", "Your fist gets bigger"], "answer": 1 }
+      ]
+    }
+  ]
+}

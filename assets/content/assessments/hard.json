@@ -1,0 +1,179 @@
+{
+  "passages": [
+    {
+      "id": "assess-fossils",
+      "difficulty": "hard",
+      "title": "Fossils: Clues From the Past",
+      "topic": "Science",
+      "icon": "museum",
+      "color": "#8455E0",
+      "paragraphs": [
+        "No one has ever seen a living dinosaur, so how do we know what dinosaurs looked like? The answer is fossils. Fossils are the remains or traces of plants and animals that lived long ago, preserved in rock.",
+        "Most fossils form in a slow, step-by-step process. First, an animal dies and its body is quickly covered by mud or sand, often at the bottom of a lake or sea. Next, the soft parts of the body rot away, leaving the hard bones, teeth or shells behind. Over thousands of years, more layers of mud pile on top and press down until they harden into rock. Slowly, minerals from water seep into the bones and replace them, turning them into stone. Finally, millions of years later, wind, rain or earthquakes may wear away the rock and bring the fossil close to the surface.",
+        "Not all fossils are bones. Footprints, eggs, nests and even dinosaur droppings can become fossils. These are called trace fossils, and they tell scientists how animals moved, what they ate and how they lived.",
+        "Scientists who study fossils are called paleontologists. Like detectives, they carefully dig fossils out with brushes and small tools, then compare them to learn about ancient life. Fossils have taught us that dinosaurs ruled the land for more than 150 million years, and that most of them disappeared about 66 million years ago, most likely after a giant asteroid struck Earth."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "What do we call scientists who study fossils?", "accepted": [["paleontologist", "palaeontologist"]], "answerText": "Paleontologists" },
+        { "id": "q2", "type": "choice", "skill": "sequence", "prompt": "What happens right AFTER an animal's body is covered by mud or sand?", "options": ["Minerals turn the bones into stone", "The soft parts of the body rot away", "Earthquakes bring the fossil to the surface"], "answer": 1 },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "Which of these is a trace fossil?", "options": ["A dinosaur footprint in rock", "A living lizard", "A plastic toy dinosaur"], "answer": 0 },
+        { "id": "q4", "type": "text", "skill": "details", "prompt": "About how many years ago did most dinosaurs disappear?", "accepted": [["66 million"]], "answerText": "About 66 million years ago" },
+        { "id": "q5", "type": "choice", "skill": "inference", "prompt": "Why does the writer compare paleontologists to detectives?", "options": ["They wear badges", "They use clues to figure out what happened long ago", "They catch thieves"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "assess-bamboo",
+      "difficulty": "hard",
+      "title": "Bamboo: The Amazing Giant Grass",
+      "topic": "Plants",
+      "icon": "park",
+      "color": "#2EAD5F",
+      "paragraphs": [
+        "It can grow taller than a house, it is stronger than many kinds of wood, and it is actually a type of grass. Meet bamboo, one of the most remarkable plants on Earth.",
+        "Bamboo is among the fastest-growing plants in the world. Some kinds can grow nearly a meter in a single day! A new bamboo shoot pushes out of the ground already as wide as it will ever be, then races straight up toward the sky. Within a few months, it can reach its full height.",
+        "Because bamboo is strong, light and bends without breaking, people have used it for thousands of years. In the Philippines, it is used to build the bahay kubo, the traditional nipa hut. Bamboo poles are clapped together in the tinikling, a lively folk dance. Around the world, bamboo is also made into furniture, baskets, bicycles, paper and even clothing.",
+        "Bamboo is good for the environment, too. Its roots hold soil in place, which helps prevent landslides and erosion. Because it grows back quickly after being cut, it can be harvested again and again without replanting.",
+        "Bamboo is also food. Young bamboo shoots, called labong in Filipino, are cooked in many Asian dishes. Giant pandas and red pandas depend on bamboo too, since it makes up most of what they eat."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What kind of plant is bamboo?", "options": ["A tree", "A grass", "A vine"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "About how much can some kinds of bamboo grow in a single day?", "accepted": [["meter", "metre", "100 cm", "91 cm"]], "answerText": "Nearly a meter" },
+        { "id": "q3", "type": "text", "skill": "vocabulary", "prompt": "What is the Filipino word for young bamboo shoots?", "accepted": [["labong"]], "answerText": "Labong" },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "How can bamboo growing on a hillside help the people who live below it?", "options": ["Its roots hold the soil and help prevent landslides", "It makes the hill taller", "It keeps all animals away"], "answer": 0 },
+        { "id": "q5", "type": "choice", "skill": "mainIdea", "prompt": "What is the main idea of the whole text?", "options": ["Bamboo is a fast-growing, useful plant that helps people and nature", "Pandas only eat bamboo", "Tinikling is a fun dance"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "assess-mariana-trench",
+      "difficulty": "hard",
+      "title": "The Mariana Trench: The Deepest Place on Earth",
+      "topic": "Ocean",
+      "icon": "waves",
+      "color": "#1A237E",
+      "paragraphs": [
+        "If you could place Mount Everest, the tallest mountain on Earth, at the bottom of the deepest part of the ocean, its peak would still be more than two kilometers under water. That deepest place is the Challenger Deep, at the southern end of the Mariana Trench in the western Pacific Ocean, east of the Philippines.",
+        "The Mariana Trench is a long, curved valley in the ocean floor that stretches for about 2,500 kilometers. At the Challenger Deep, the water is nearly 11 kilometers deep. No sunlight reaches that far down, so it is completely dark, and the water is only a few degrees above freezing.",
+        "The biggest challenge of exploring the trench is pressure. The deeper you go, the more water presses down from above. At the bottom, the pressure is more than 1,000 times greater than at the surface, like the weight of a small car pressing on every square centimeter. Without a very strong vessel, a person could not survive.",
+        "In 1960, Jacques Piccard and Don Walsh became the first people to reach the Challenger Deep, inside a deep-sea vehicle called the Trieste. More than fifty years later, in 2012, filmmaker James Cameron made the first solo dive there. Since then, a small number of other explorers have also made the journey.",
+        "Amazingly, life exists even in this extreme place. Scientists have found shrimp-like creatures called amphipods and giant single-celled organisms at the bottom, and pale, ghostly fish called snailfish living deep in the trench. Studying them helps scientists learn how living things survive in the harshest conditions on our planet."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "details", "prompt": "What is the name of the deepest point in the Mariana Trench?", "accepted": [["challenger"]], "answerText": "The Challenger Deep" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "If Mount Everest were placed in the Challenger Deep, what would happen?", "options": ["Its peak would stick out above the water", "Its peak would still be more than two kilometers under water", "It would float to the surface"], "answer": 1 },
+        { "id": "q3", "type": "choice", "skill": "vocabulary", "prompt": "In the last paragraph, what does the word \"extreme\" mean?", "options": ["Very gentle and comfortable", "Very harsh and far from normal", "Very small"], "answer": 1 },
+        { "id": "q4", "type": "choice", "skill": "sequence", "prompt": "Which of these happened FIRST?", "options": ["James Cameron made a solo dive", "Jacques Piccard and Don Walsh reached the Challenger Deep", "Other explorers made the journey"], "answer": 1 },
+        { "id": "q5", "type": "choice", "skill": "inference", "prompt": "Why does a person need a very strong vessel to reach the bottom?", "options": ["Because of the darkness", "Because the water pressure is over 1,000 times greater than at the surface", "Because the trench is very long"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "assess-battle-of-mactan",
+      "difficulty": "hard",
+      "title": "Lapu-Lapu and the Battle of Mactan",
+      "topic": "Philippine History",
+      "icon": "sailing",
+      "color": "#00838F",
+      "paragraphs": [
+        "In 1519, a Portuguese explorer named Ferdinand Magellan set sail from Spain with five ships. His voyage, paid for by the King of Spain, was meant to find a western sea route to the Spice Islands, a group of islands in Asia famous for valuable spices like cloves and nutmeg.",
+        "After a long and difficult journey across the Atlantic and Pacific Oceans, Magellan's remaining ships reached the islands we now call the Philippines in March 1521. On Easter Sunday, the first recorded Catholic Mass in the country was held in Limasawa. Magellan then sailed to Cebu, where he became allies with Rajah Humabon, the local ruler. Humabon and many of his people were baptized as Christians.",
+        "Not every leader welcomed the newcomers. On the nearby island of Mactan, a chieftain named Lapu-Lapu refused to obey Magellan or pay tribute to Spain. On April 27, 1521, Magellan led an attack on Mactan with a small group of armed men. Lapu-Lapu and his warriors, who knew the shallow waters and coral reefs around their island, fought back fiercely. Magellan was killed in the battle, and his men retreated to their ships.",
+        "The expedition continued without Magellan. In 1522, just one ship, the Victoria, returned to Spain under the command of Juan Sebastián Elcano. It had sailed all the way around the world, the first voyage ever to do so.",
+        "Today, Lapu-Lapu is remembered as one of the first Filipinos to defend the islands against foreign rule. A tall statue of him stands in Mactan, in a city that bears his name: Lapu-Lapu City."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What was Magellan's voyage meant to find?", "options": ["A western sea route to the Spice Islands", "A place to build a city in Cebu", "The highest mountain in Asia"], "answer": 0 },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "Who was the chieftain of Mactan who refused to obey Magellan?", "accepted": [["lapu lapu", "lapulapu"]], "answerText": "Lapu-Lapu" },
+        { "id": "q3", "type": "choice", "skill": "sequence", "prompt": "Which event happened right before the Battle of Mactan?", "options": ["The Victoria returned to Spain", "Magellan became allies with Rajah Humabon in Cebu", "Magellan set sail from Spain"], "answer": 1 },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "How did knowing the shallow waters and coral reefs help Lapu-Lapu's warriors?", "options": ["They could fight where the attackers could not easily bring their ships", "They could catch more fish during the battle", "They could hide the Spice Islands"], "answer": 0 },
+        { "id": "q5", "type": "text", "skill": "details", "prompt": "What was the name of the only ship that returned to Spain?", "accepted": [["victoria"]], "answerText": "The Victoria" }
+      ]
+    },
+    {
+      "id": "assess-vaccines",
+      "difficulty": "hard",
+      "title": "Vaccines: Training Your Body's Defenders",
+      "topic": "Health",
+      "icon": "vaccine",
+      "color": "#00897B",
+      "paragraphs": [
+        "Every day, your body meets tiny germs, such as bacteria and viruses, that can make you sick. Luckily, you have a powerful defense team called the immune system. When a harmful germ enters your body, your immune system makes special proteins called antibodies. Antibodies attach to the germ and help destroy it.",
+        "The trouble is that the first time your body meets a new germ, it can take days to make the right antibodies. By then, you may already be very sick. That is where vaccines help. A vaccine safely shows your immune system what a germ looks like, using a weakened or inactive form of the germ, a small piece of it, or instructions for making one harmless part of it. Your body practices making antibodies and remembers how. Later, if the real germ attacks, your immune system recognizes it quickly and fights it off before it can make you seriously ill.",
+        "The idea began more than 200 years ago. In 1796, an English doctor named Edward Jenner noticed that milkmaids who had caught a mild disease called cowpox did not catch smallpox, a deadly disease. He tested his idea and created the first vaccine. The word vaccine comes from vacca, the Latin word for cow.",
+        "Vaccines have changed the world. Thanks to vaccination programs around the globe, smallpox was declared completely wiped out in 1980. Other serious diseases, such as polio and measles, have become much rarer in many countries.",
+        "Vaccines also protect people who are too young to get certain vaccines, such as newborn babies. When most people in a community are vaccinated, a germ has a hard time spreading from person to person. This is sometimes called community protection."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "What are the special proteins your immune system makes to fight germs called?", "accepted": [["antibodies", "antibody"]], "answerText": "Antibodies" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "How does a vaccine help your body?", "options": ["It lets your immune system practice making antibodies against a germ", "It makes germs grow faster", "It replaces your blood"], "answer": 0 },
+        { "id": "q3", "type": "text", "skill": "details", "prompt": "Who created the first vaccine?", "accepted": [["jenner"]], "answerText": "Edward Jenner" },
+        { "id": "q4", "type": "choice", "skill": "vocabulary", "prompt": "The word vaccine comes from the Latin word vacca. What does vacca mean?", "options": ["Doctor", "Cow", "Medicine"], "answer": 1 },
+        { "id": "q5", "type": "choice", "skill": "inference", "prompt": "Why are newborn babies safer when most people around them are vaccinated?", "options": ["Babies cannot catch any germs", "Germs have a hard time spreading to them", "Vaccines make babies grow faster"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "assess-mangroves",
+      "difficulty": "hard",
+      "title": "Mangroves: Guardians of the Coast",
+      "topic": "Environment",
+      "icon": "water",
+      "color": "#2E7D32",
+      "paragraphs": [
+        "Most trees would die if their roots sat in salty seawater, but mangroves are different. These remarkable trees and shrubs grow along tropical coastlines, in the muddy zone where rivers meet the sea and the tide rises and falls each day. The Philippines is home to dozens of kinds of mangroves.",
+        "Mangroves have clever ways to survive. Some kinds filter out most of the salt as water enters their roots. Others push extra salt out through their leaves. Many mangroves have roots that arch above the mud like the legs of a spider, holding the tree steady in the soft ground. Others send up pencil-like roots that poke out of the mud to take in air, because the mud itself has very little oxygen.",
+        "Mangrove forests protect the people who live along the coast. Their thick tangle of roots slows down waves and storm surges during typhoons, which reduces damage to homes. The roots also trap soil and keep the shoreline from washing away.",
+        "Mangroves are nurseries for sea life, too. Young fish, crabs and shrimp hide among the roots, safe from larger predators, until they are big enough to swim out to sea. Many fishing families depend on the fish that grow up there. Mangroves also store large amounts of carbon in their roots and in the mud below, which helps slow down climate change.",
+        "Sadly, many mangrove forests in the Philippines have been cut down to make room for fishponds, houses and roads. Today, communities, students and scientists are working together to plant new mangroves and protect the ones that remain."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "Where do mangroves grow?", "options": ["On snowy mountains", "Along tropical coasts where rivers meet the sea", "In dry deserts"], "answer": 1 },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "How do mangrove roots help during typhoons?", "options": ["They slow down waves and storm surges", "They pull the clouds away", "They make the rain stop"], "answer": 0 },
+        { "id": "q3", "type": "text", "skill": "details", "prompt": "The text calls mangroves nurseries for sea life. Name one sea animal that grows up among their roots.", "accepted": [["fish", "crab", "shrimp"]], "answerText": "Young fish, crabs or shrimp" },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why would cutting down mangroves be bad for fishing families?", "options": ["Young fish would have fewer safe places to grow up", "The sea would become less salty", "Their boats would sink"], "answer": 0 },
+        { "id": "q5", "type": "choice", "skill": "mainIdea", "prompt": "What is the main idea of the text?", "options": ["Mangroves are special trees that protect coasts and sea life, and they need our help", "Fishponds are good for the environment", "Salt is bad for all plants"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "assess-printing-press",
+      "difficulty": "hard",
+      "title": "The Printing Press: Words for Everyone",
+      "topic": "History",
+      "icon": "print",
+      "color": "#5D4037",
+      "paragraphs": [
+        "Today, you can find books in libraries, schools and homes, and you can read almost anything on a screen. But for most of history, books were rare treasures. Before printing, every book had to be copied by hand, letter by letter. Copying one thick book could take a skilled writer many months, so only rich families, churches and universities could own books.",
+        "People in Asia found faster ways to print long before Europe did. In China, printers carved whole pages into wooden blocks, covered them with ink and pressed them onto paper. Around the year 1040, a Chinese inventor named Bi Sheng created movable type: small, separate pieces for each character that could be rearranged and used again. Later, printers in Korea made movable type out of metal.",
+        "In Europe, the big change came around 1440, when a German goldsmith named Johannes Gutenberg built a printing press with movable metal type. His workers arranged metal letters into lines, spread oil-based ink across them and used the press to squeeze the letters firmly against paper. The same letters could be used again and again to print page after page.",
+        "Around 1455, Gutenberg's workshop finished printing a famous edition of the Bible. Soon, printing presses spread to cities all over Europe. Books became cheaper and far more common, and new ideas about science, religion and government could travel quickly from place to place.",
+        "More people now had a reason to learn to read. Many historians say the printing press was one of the most important inventions in human history, because it helped knowledge belong to everyone, not just to a few."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "Before printing, how were books made?", "options": ["They were copied by hand", "They were typed on computers", "They were carved into stone walls"], "answer": 0 },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "Who created movable type in China around the year 1040?", "accepted": [["bi sheng"]], "answerText": "Bi Sheng" },
+        { "id": "q3", "type": "text", "skill": "details", "prompt": "Who built a printing press with movable metal type in Europe around 1440?", "accepted": [["gutenberg"]], "answerText": "Johannes Gutenberg" },
+        { "id": "q4", "type": "choice", "skill": "sequence", "prompt": "Which of these came FIRST?", "options": ["Gutenberg's workshop printed the Bible", "Bi Sheng created movable type", "Printing presses spread across Europe"], "answer": 1 },
+        { "id": "q5", "type": "choice", "skill": "inference", "prompt": "Why did the printing press give more people a reason to learn to read?", "options": ["Books became cheaper and easier to find", "Reading became against the law", "Books got much longer"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "assess-sleep",
+      "difficulty": "hard",
+      "title": "Why Your Brain Needs Sleep",
+      "topic": "Human Body",
+      "icon": "bed",
+      "color": "#3949AB",
+      "paragraphs": [
+        "You will spend about one-third of your life asleep. It might seem like nothing is happening while you sleep, but your body and brain are actually very busy.",
+        "Sleep happens in cycles that repeat several times each night. In light sleep, your muscles relax and your heartbeat slows. In deep sleep, your body repairs muscles and other tissues, and it releases growth hormone, which helps children grow. Then comes REM sleep, short for rapid eye movement. During REM sleep, your eyes dart back and forth under your eyelids, your brain becomes very active, and most dreaming happens.",
+        "One of sleep's most important jobs is helping you learn. While you sleep, your brain sorts through the day's experiences and strengthens the memories that matter, like new words, facts or skills you practiced. That is why a good night's sleep before a test can help more than staying up late to study.",
+        "When people do not get enough sleep, they often feel grumpy and have trouble paying attention. They may make more mistakes and even get sick more often, because sleep also helps the immune system stay strong.",
+        "Sleep experts say that children between 6 and 12 years old need about 9 to 12 hours of sleep each night. To sleep well, go to bed at the same time every day, keep your bedroom dark and quiet, and put away phones, tablets and TVs about an hour before bedtime. The bright light from screens can trick your brain into thinking it is still daytime, which makes it harder to fall asleep."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "What does REM stand for?", "accepted": [["rapid eye movement"]], "answerText": "Rapid eye movement" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "During which stage of sleep does the body release growth hormone?", "options": ["Deep sleep", "REM sleep", "While awake"], "answer": 0 },
+        { "id": "q3", "type": "choice", "skill": "inference", "prompt": "Why might a good night's sleep before a test help more than staying up late to study?", "options": ["Sleep helps the brain strengthen important memories", "You can study in your dreams", "Tests are easier at night"], "answer": 0 },
+        { "id": "q4", "type": "text", "skill": "details", "prompt": "How many hours of sleep do children aged 6 to 12 need each night?", "accepted": [["9"], ["12"]], "answerText": "About 9 to 12 hours" },
+        { "id": "q5", "type": "choice", "skill": "mainIdea", "prompt": "What is the main idea of the text?", "options": ["Screens are very bright", "Sleep is busy, important work that helps your body and brain", "Dreams are always about school"], "answer": 1 }
+      ]
+    }
+  ]
+}

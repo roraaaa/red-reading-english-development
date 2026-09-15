@@ -1,0 +1,10 @@
+{
+  "levels": [
+    { "id": "green",  "number": 1, "name": "Green",  "color": "#2EAD5F", "icon": "leaf",    "description": "Short, simple stories to warm up" },
+    { "id": "aqua",   "number": 2, "name": "Aqua",   "color": "#1FA5B8", "icon": "cloud",   "description": "Fun facts with a few new words" },
+    { "id": "blue",   "number": 3, "name": "Blue",   "color": "#3D6FE0", "icon": "water",   "description": "Longer texts with more details" },
+    { "id": "violet", "number": 4, "name": "Violet", "color": "#8455E0", "icon": "diamond", "description": "Big ideas and new vocabulary" },
+    { "id": "pink",   "number": 5, "name": "Pink",   "color": "#E0508F", "icon": "flower",  "description": "Challenge stories for super readers" },
+    { "id": "orange", "number": 6, "name": "Orange", "color": "#EE7A1E", "icon": "fire",    "description": "Expert stories for reading champions" }
+  ]
+}

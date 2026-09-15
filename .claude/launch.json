@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "red-web",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "C:/Users/clare/AppData/Local/Temp/claude/C--Claude-Projects-RED--Reading-English-Development-/3d36346f-5e25-439b-b16e-3ddd4943ec1c/scratchpad/serve_web.mjs",
+        "C:/Claude_Projects/RED (Reading English Development)/build/web",
+        "5173"
+      ],
+      "port": 5173
+    }
+  ]
+}

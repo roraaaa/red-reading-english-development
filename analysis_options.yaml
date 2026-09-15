@@ -1,0 +1,7 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # ViewModels and repositories take public named constructor parameters
+    # and store them in private fields (constructor injection).
+    prefer_initializing_formals: false

@@ -1,0 +1,164 @@
+{
+  "passages": [
+    {
+      "id": "assess-sea-turtles",
+      "difficulty": "easy",
+      "title": "Sea Turtles",
+      "topic": "Ocean",
+      "icon": "waves",
+      "color": "#1FA5B8",
+      "paragraphs": [
+        "Sea turtles are reptiles that live in the ocean. In the Philippines, people call them pawikan. Sea turtles have been swimming in the oceans since the time of the dinosaurs.",
+        "A sea turtle cannot pull its head and legs into its shell like a land turtle can. Instead, it has strong flippers that help it swim far across the sea.",
+        "When it is time to lay eggs, a mother sea turtle crawls onto a sandy beach at night. She digs a hole with her flippers, lays her eggs inside, and covers them with sand. Then she goes back to the sea.",
+        "About two months later, the baby turtles hatch. They dig their way out and hurry toward the bright water. Only a few of them will grow up, so it is important to keep beaches clean and safe."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "What do people in the Philippines call sea turtles?", "accepted": [["pawikan"]], "answerText": "Pawikan" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "When does a mother sea turtle crawl onto the beach to lay her eggs?", "options": ["In the morning", "At night", "At lunchtime"], "answer": 1 },
+        { "id": "q3", "type": "choice", "skill": "sequence", "prompt": "What does the mother turtle do right after she lays her eggs?", "options": ["She covers them with sand", "She sits on them", "She eats seaweed"], "answer": 0 },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why is it important to keep beaches clean and safe?", "options": ["So people can play volleyball", "So more baby turtles can survive", "So the sand stays white"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "assess-our-moon",
+      "difficulty": "easy",
+      "title": "Our Moon",
+      "topic": "Space",
+      "icon": "moon",
+      "color": "#3D6FE0",
+      "paragraphs": [
+        "On a clear night, the Moon shines brightly in the sky. But did you know the Moon does not make its own light? It shines because it reflects light from the Sun, like a giant mirror.",
+        "The Moon travels around Earth. One trip takes about 27 days. As it moves, we see different amounts of its sunny side. That is why the Moon seems to change shape, from a thin crescent to a full, round circle. These shapes are called phases.",
+        "The Moon has no air to breathe and no water to drink. Its ground is covered in gray dust and big holes called craters.",
+        "In 1969, astronaut Neil Armstrong became the first person to walk on the Moon. His footprints are still there, because there is no wind to blow them away!"
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "Where does the Moon's light come from?", "options": ["It makes its own light", "It reflects light from the Sun", "It has giant lamps"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What are the different shapes of the Moon called?", "accepted": [["phase"]], "answerText": "Phases" },
+        { "id": "q3", "type": "text", "skill": "details", "prompt": "Who was the first person to walk on the Moon?", "accepted": [["armstrong"]], "answerText": "Neil Armstrong" },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why are the astronaut's footprints still on the Moon?", "options": ["There is no wind to blow them away", "Robots protect them", "They are painted on"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "assess-carabao",
+      "difficulty": "easy",
+      "title": "The Hardworking Carabao",
+      "topic": "Philippine Animals",
+      "icon": "agriculture",
+      "color": "#9C6B3F",
+      "paragraphs": [
+        "The carabao is a kind of water buffalo. It is big and strong, with gray skin and long, curved horns. Many people call it the national animal of the Philippines.",
+        "For hundreds of years, carabaos have helped Filipino farmers. They pull plows through muddy rice fields and carry heavy loads on carts.",
+        "Carabaos love water. On hot days, they lie in mud or rivers to keep cool. The mud also protects their skin from the sun and from biting insects.",
+        "Carabao milk is creamy and rich. It is used to make tasty treats like pastillas and kesong puti, a soft white cheese."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What kind of animal is a carabao?", "options": ["A kind of water buffalo", "A kind of horse", "A kind of goat"], "answer": 0 },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "How do carabaos help farmers?", "options": ["They sing to the rice", "They pull plows and carry heavy loads", "They catch fish"], "answer": 1 },
+        { "id": "q3", "type": "text", "skill": "details", "prompt": "Where do carabaos lie down to keep cool on hot days?", "accepted": [["mud", "river", "water"]], "answerText": "In mud or rivers" },
+        { "id": "q4", "type": "text", "skill": "vocabulary", "prompt": "Name one treat made from carabao milk.", "accepted": [["pastillas", "kesong puti", "cheese"]], "answerText": "Pastillas or kesong puti" }
+      ]
+    },
+    {
+      "id": "assess-rainbows",
+      "difficulty": "easy",
+      "title": "How Rainbows Are Made",
+      "topic": "Science",
+      "icon": "rainbow",
+      "color": "#7E57C2",
+      "paragraphs": [
+        "Have you ever seen a rainbow after the rain? A rainbow is a big, colorful arc across the sky.",
+        "Sunlight looks white, but it is really made of many colors mixed together. When sunlight shines through tiny raindrops, the drops bend the light and split it into its colors.",
+        "A rainbow's colors always appear in the same order: red, orange, yellow, green, blue, indigo and violet. Some people remember the order with the name ROY G. BIV.",
+        "To see a rainbow, the sun must be behind you and the rain must be in front of you. If you are lucky, you might even see a double rainbow!"
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What is sunlight really made of?", "options": ["Only yellow light", "Many colors mixed together", "Tiny raindrops"], "answer": 1 },
+        { "id": "q2", "type": "choice", "skill": "sequence", "prompt": "Which color comes right after yellow in a rainbow?", "options": ["Green", "Red", "Blue"], "answer": 0 },
+        { "id": "q3", "type": "text", "skill": "details", "prompt": "To see a rainbow, where must the sun be?", "accepted": [["behind"]], "answerText": "Behind you" },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why do rainbows usually appear after it rains?", "options": ["The rain paints the sky", "Sunlight shines through raindrops still in the air", "Clouds turn into colors"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "assess-penguins",
+      "difficulty": "easy",
+      "title": "Penguins: Birds That Swim",
+      "topic": "Animals",
+      "icon": "snow",
+      "color": "#455A9C",
+      "paragraphs": [
+        "Penguins are birds, but they cannot fly. Instead, they are amazing swimmers. Their wings work like flippers to help them zoom through the water.",
+        "Most penguins live in the southern half of the world. Some live on the icy land of Antarctica, but others live on warmer beaches and islands.",
+        "Penguins eat fish, squid and tiny sea animals called krill. A thick layer of fat and tightly packed feathers keep them warm in cold water.",
+        "Emperor penguins have a special way of caring for their eggs. The father holds the egg on top of his feet and covers it with a warm fold of skin. He keeps it safe through the freezing winter until the chick hatches."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "How do penguins use their wings?", "options": ["To fly high in the sky", "Like flippers for swimming", "To dig holes"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What are the tiny sea animals that penguins eat called?", "accepted": [["krill"]], "answerText": "Krill" },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "What keeps penguins warm in cold water?", "options": ["Warm jackets", "A thick layer of fat and tightly packed feathers", "Hot water springs"], "answer": 1 },
+        { "id": "q4", "type": "text", "skill": "details", "prompt": "Which emperor penguin parent holds the egg on his feet?", "accepted": [["father", "dad", "daddy", "male"]], "answerText": "The father" }
+      ]
+    },
+    {
+      "id": "assess-lion-and-mouse",
+      "difficulty": "easy",
+      "title": "The Lion and the Mouse",
+      "topic": "Fables",
+      "icon": "pets",
+      "color": "#D98E04",
+      "paragraphs": [
+        "One day, a lion was sleeping in the forest. A tiny mouse ran across his nose and woke him up. The lion grabbed the mouse with his big paw.",
+        "\"Please let me go!\" squeaked the mouse. \"If you do, maybe one day I can help you.\" The lion laughed. How could a little mouse ever help a mighty lion? Still, he let the mouse go.",
+        "A few days later, the lion was caught in a hunter's net. He roared and pulled, but he could not get free.",
+        "The mouse heard the roar and came running. She chewed through the ropes with her sharp teeth until the lion was free. \"You laughed at me,\" said the mouse, \"but even a little friend can be a big help.\""
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "sequence", "prompt": "What happened after the mouse ran across the lion's nose?", "options": ["The lion woke up and grabbed the mouse", "The lion went back to sleep", "The mouse fell into a net"], "answer": 0 },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "What trapped the lion?", "accepted": [["net"]], "answerText": "A hunter's net" },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "How did the mouse free the lion?", "options": ["She called the hunter", "She chewed through the ropes", "She pushed the net away"], "answer": 1 },
+        { "id": "q4", "type": "choice", "skill": "mainIdea", "prompt": "What is the lesson of the story?", "options": ["Lions are always kind", "Even a small friend can be a big help", "Mice are faster than lions"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "assess-brushing-teeth",
+      "difficulty": "easy",
+      "title": "Why We Brush Our Teeth",
+      "topic": "Health",
+      "icon": "smile",
+      "color": "#26A69A",
+      "paragraphs": [
+        "Every time you eat, tiny bits of food stay on your teeth. Germs in your mouth love to eat these bits, too.",
+        "The germs make a sticky layer on your teeth called plaque. Plaque makes acids that can make holes in your teeth. These holes are called cavities, and they can hurt.",
+        "Brushing your teeth takes the plaque away. Dentists say you should brush two times a day, for about two minutes each time. Do not forget to brush along your gums and your tongue, too!",
+        "Eating fewer sweets, drinking water and visiting the dentist also help keep your smile healthy and bright."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "vocabulary", "prompt": "What is the sticky layer that germs make on your teeth called?", "accepted": [["plaque"]], "answerText": "Plaque" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "What are cavities?", "options": ["Holes in your teeth", "Kinds of toothpaste", "Healthy snacks"], "answer": 0 },
+        { "id": "q3", "type": "text", "skill": "details", "prompt": "How many times a day should you brush your teeth?", "accepted": [["2", "twice"]], "answerText": "Two times a day" },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why is it a good idea to eat fewer sweets?", "options": ["Sweets make your teeth whiter", "Germs feed on sugary food and make acids that cause cavities", "Sweets are too heavy to chew"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "assess-jeepney",
+      "difficulty": "easy",
+      "title": "The Jeepney",
+      "topic": "Philippines",
+      "icon": "bus",
+      "color": "#E53935",
+      "paragraphs": [
+        "If you ride through the streets of the Philippines, you will probably see a jeepney. Jeepneys are colorful vehicles that carry passengers from place to place.",
+        "After World War II, American soldiers left many army jeeps in the Philippines. Filipinos made the jeeps longer, added roofs and benches, and turned them into public transportation. That is how the jeepney was born.",
+        "Many jeepneys are decorated with bright paint, shiny metal horses, lights and fun designs. No two jeepneys look exactly alike.",
+        "Passengers climb in at the back and sit facing each other. They pass their fare to the driver from hand to hand. When they want to get off, they say \"Para!\" and the driver stops."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "What were the first jeepneys made from?", "options": ["Old boats", "Army jeeps left after World War II", "Horse carts"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "details", "prompt": "What do passengers say when they want the jeepney to stop?", "accepted": [["para"]], "answerText": "Para!" },
+        { "id": "q3", "type": "choice", "skill": "details", "prompt": "How do passengers pay the driver?", "options": ["They pass their fare from hand to hand", "They put coins in a machine", "They pay at a ticket booth"], "answer": 0 },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Why do you think no two jeepneys look exactly alike?", "options": ["They are all built in one factory", "Owners decorate them in their own special way", "The government paints them all the same"], "answer": 1 }
+      ]
+    }
+  ]
+}

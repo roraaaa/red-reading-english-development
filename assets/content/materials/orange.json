@@ -1,0 +1,67 @@
+{
+  "passages": [
+    {
+      "id": "black-holes",
+      "level": "orange",
+      "title": "Black Holes: Where Light Can't Escape",
+      "topic": "Space",
+      "icon": "galaxy",
+      "paragraphs": [
+        "Imagine something so heavy and so tightly packed that nothing can escape its pull, not even light, the fastest thing in the universe. That is a black hole. Because no light comes out of it, a black hole looks completely black, which is how it got its name.",
+        "Most black holes form when a very large star runs out of fuel. Without the energy that pushed outward from its center, the star can no longer hold itself up. Its core collapses under its own gravity, squeezing an enormous amount of matter into a tiny space. Some black holes are several times heavier than our Sun, while the giant ones at the centers of galaxies are millions or even billions of times heavier.",
+        "The edge of a black hole is called the event horizon. Anything that crosses it, whether dust, gas or light, can never come back out. Scientists think that if an astronaut fell toward a small black hole, the pull on their feet would be so much stronger than the pull on their head that they would be stretched out like a noodle. Scientists even have a funny name for this: spaghettification.",
+        "If black holes are black, how do we find them? Scientists watch how they affect things nearby. Stars can be seen racing around an invisible object, and gas falling toward a black hole heats up and glows brightly before it disappears. In 2019, scientists using telescopes around the world shared the first picture of the glowing ring around a black hole in a galaxy called M87. In 2022, they shared a picture of Sagittarius A*, the black hole at the center of our own Milky Way galaxy.",
+        "Do not worry, though. The nearest black hole we know of is more than a thousand light-years away, far too distant to pull in our planet."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "Why does a black hole look completely black?", "options": ["It is covered in space dust", "Not even light can escape its pull", "It is always on the dark side of a planet"], "answer": 1 },
+        { "id": "q2", "type": "text", "skill": "vocabulary", "prompt": "What is the edge of a black hole called?", "accepted": [["event horizon"]], "answerText": "The event horizon" },
+        { "id": "q3", "type": "choice", "skill": "sequence", "prompt": "What happens right after a very large star runs out of fuel?", "options": ["It turns into a planet", "Its core collapses under its own gravity", "It shines brighter forever"], "answer": 1 },
+        { "id": "q4", "type": "choice", "skill": "inference", "prompt": "Scientists cannot see a black hole directly. How do they find one?", "options": ["By listening for loud noises in space", "By watching how nearby stars and gas behave", "By sending astronauts inside"], "answer": 1 },
+        { "id": "q5", "type": "text", "skill": "details", "prompt": "What is the name of the black hole at the center of the Milky Way?", "accepted": [["sagittarius"]], "answerText": "Sagittarius A*" }
+      ]
+    },
+    {
+      "id": "andres-bonifacio",
+      "level": "orange",
+      "title": "Andrés Bonifacio and the Katipunan",
+      "topic": "Philippine Heroes",
+      "icon": "flag",
+      "paragraphs": [
+        "Andrés Bonifacio was born on November 30, 1863, in Tondo, Manila. His family was not rich. When he was a teenager, both of his parents died, and he left school to take care of his younger brothers and sisters. To earn money, he made and sold canes and paper fans. Later, he worked as a clerk and messenger for companies in Manila.",
+        "Even though he stopped going to school, Bonifacio never stopped learning. He taught himself by reading many books, including the novels of José Rizal and books about the French Revolution. These books helped him see that Filipinos living under Spanish rule deserved freedom and fair treatment.",
+        "In 1892, José Rizal started a group called La Liga Filipina, which asked for peaceful changes. Only days later, Rizal was arrested and sent away to Dapitan. Bonifacio decided that asking politely was not enough. On July 7, 1892, he and his companions founded a secret society called the Katipunan. Its members promised to fight for the country's independence, and thousands of Filipinos joined.",
+        "In August 1896, the Spanish discovered the secret society. Bonifacio gathered the Katipuneros, and as a sign that they would no longer obey Spain, they tore up their cédulas, the tax certificates the Spanish government made people carry. This event is remembered as the Cry of Pugad Lawin, and it marked the start of the Philippine Revolution.",
+        "Bonifacio died in 1897 after a conflict among the leaders of the revolution, but the fight he started went on. Today he is honored as one of the country's national heroes, and every November 30, on his birthday, Filipinos celebrate Bonifacio Day."
+      ],
+      "questions": [
+        { "id": "q1", "type": "text", "skill": "details", "prompt": "Where was Andrés Bonifacio born?", "accepted": [["tondo"]], "answerText": "Tondo, Manila" },
+        { "id": "q2", "type": "choice", "skill": "details", "prompt": "How did Bonifacio earn money after his parents died?", "options": ["He made and sold canes and paper fans", "He worked as a doctor", "He owned a large farm"], "answer": 0 },
+        { "id": "q3", "type": "text", "skill": "vocabulary", "prompt": "What was the name of the secret society Bonifacio founded in 1892?", "accepted": [["katipunan"]], "answerText": "The Katipunan" },
+        { "id": "q4", "type": "choice", "skill": "sequence", "prompt": "Which of these happened FIRST?", "options": ["The Cry of Pugad Lawin", "Rizal started La Liga Filipina", "The Spanish discovered the Katipunan"], "answer": 1 },
+        { "id": "q5", "type": "choice", "skill": "inference", "prompt": "Why did the Katipuneros tear up their cédulas?", "options": ["They wanted new ones", "To show they would no longer obey Spain", "The papers were old and dirty"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "amazing-octopus",
+      "level": "orange",
+      "title": "The Amazing Octopus",
+      "topic": "Ocean Animals",
+      "icon": "bubbles",
+      "paragraphs": [
+        "With eight wiggly arms, three hearts and blue blood, the octopus might sound like a creature from a science-fiction movie. But it is real, and it lives in oceans all around the world, from warm coral reefs to the cold, dark deep sea.",
+        "An octopus has no bones at all. Its only hard body part is its beak, shaped a little like a parrot's, which it uses to crack open crabs and clams. Because the rest of its body is soft, an octopus can squeeze through any gap bigger than its beak. Some octopuses kept in aquariums have even escaped from their tanks this way!",
+        "The octopus is also one of the smartest animals without a backbone. Scientists have watched octopuses solve puzzles, open jars to reach food and carry coconut shells to use as portable shelters. Surprisingly, about two-thirds of an octopus's nerve cells, called neurons, are in its arms instead of its head. Each arm can feel, and even taste, whatever its suckers touch.",
+        "When danger comes near, an octopus has plenty of tricks. Special cells in its skin, called chromatophores, let it change color in less than a second to blend in with rocks or coral. It can even make its skin look bumpy or smooth. If a predator still gets too close, the octopus squirts a cloud of dark ink and jets away.",
+        "Octopuses do not live very long. Many kinds live for only one or two years. A mother octopus guards her eggs for weeks or even months, often without eating, until her babies hatch and drift away into the sea."
+      ],
+      "questions": [
+        { "id": "q1", "type": "choice", "skill": "details", "prompt": "How many hearts does an octopus have?", "options": ["One", "Two", "Three"], "answer": 2 },
+        { "id": "q2", "type": "choice", "skill": "inference", "prompt": "Why can an octopus squeeze through tiny gaps?", "options": ["Its body is soft, with only a hard beak", "It can shrink its beak", "It pushes the rocks apart"], "answer": 0 },
+        { "id": "q3", "type": "text", "skill": "vocabulary", "prompt": "What are the skin cells that let an octopus change color called?", "accepted": [["chromatophore"]], "answerText": "Chromatophores" },
+        { "id": "q4", "type": "text", "skill": "details", "prompt": "Where are about two-thirds of an octopus's neurons?", "accepted": [["arm"]], "answerText": "In its arms" },
+        { "id": "q5", "type": "choice", "skill": "mainIdea", "prompt": "What is this text mostly about?", "options": ["How to cook seafood", "The surprising body, brain and tricks of the octopus", "Why coral reefs are colorful"], "answer": 1 }
+      ]
+    }
+  ]
+}
