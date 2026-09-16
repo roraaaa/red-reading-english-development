@@ -8,6 +8,7 @@ import '../../../core/theme/app_theme.dart';
 import '../../../core/widgets/animations.dart';
 import '../../../core/widgets/app_icons.dart';
 import '../../../core/widgets/star_row.dart';
+import '../../../core/widgets/story_cover.dart';
 import '../../../core/widgets/surfaces.dart';
 import '../view_models/stories_view_model.dart';
 
@@ -159,7 +160,7 @@ class _StoryCard extends StatelessWidget {
                 children: [
                   SizedBox(
                     width: 84,
-                    child: TopicCover(icon: passage.icon, color: color, height: 84, radius: 18, iconSize: 40),
+                    child: StoryCover(passage: passage, color: color, height: 84, radius: 18, iconSize: 40),
                   ),
                   const SizedBox(width: 14),
                   Expanded(

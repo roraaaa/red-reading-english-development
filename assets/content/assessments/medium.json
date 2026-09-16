@@ -6,6 +6,8 @@
       "title": "Intramuros: The Walled City",
       "topic": "Philippine History",
       "icon": "church",
+      "image": "assets/images/stories/assess-intramuros.jpg",
+      "imageCredit": { "author":"Vyacheslav Argenberg", "license":"CC BY 4.0", "source":"https://commons.wikimedia.org/wiki/File:Manila,_Fort_Santiago,_Walled_city_of_Intramuros,_Philippines.jpg", "licenseUrl":"https://creativecommons.org/licenses/by/4.0" },
       "color": "#E0843D",
       "paragraphs": [
         "In the middle of busy, modern Manila is a very old neighborhood surrounded by thick stone walls. It is called Intramuros, a Spanish word that means \"within the walls.\"",
@@ -28,6 +30,8 @@
       "title": "Rainforests: Earth's Green Treasure",
       "topic": "Nature",
       "icon": "forest",
+      "image": "assets/images/stories/assess-rainforests.jpg",
+      "imageCredit": { "author":"EgorovaSvetlana", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Rainforest_Canopy_El_Yunque_National_Forest.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "color": "#2EAD5F",
       "paragraphs": [
         "Rainforests are thick, warm forests where it rains almost every day. Some rainforests get more than 250 centimeters of rain every year. The largest rainforest in the world is the Amazon in South America.",
@@ -49,6 +53,8 @@
       "title": "The Philippine Tarsier",
       "topic": "Philippine Animals",
       "icon": "eye",
+      "image": "assets/images/stories/assess-tarsier.jpg",
+      "imageCredit": { "author":"Charles J. Sharp", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Philippine_tarsier_(Carlito_syrichta_fraterculus)_Bohol.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "color": "#8D6E63",
       "paragraphs": [
         "In the forests of Bohol and other islands in the southern Philippines lives one of the smallest primates in the world: the Philippine tarsier. An adult tarsier is only about as long as a grown-up's hand, not counting its long, skinny tail.",
@@ -70,6 +76,8 @@
       "title": "Earthquakes: Duck, Cover and Hold",
       "topic": "Safety",
       "icon": "shield",
+      "image": "assets/images/stories/assess-earthquakes.jpg",
+      "imageCredit": { "author":"Z22", "license":"CC BY-SA 3.0", "source":"https://commons.wikimedia.org/wiki/File:Seismogram_at_Weston_Observatory.JPG", "licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0" },
       "color": "#6D4C41",
       "paragraphs": [
         "The ground beneath our feet may seem solid and still, but Earth's outer layer is broken into giant pieces called tectonic plates. These plates move very slowly, only a few centimeters each year. Sometimes their edges get stuck. When they suddenly slip, the ground shakes. This is an earthquake.",
@@ -91,6 +99,8 @@
       "title": "The Legend of the Pineapple",
       "topic": "Filipino Folk Tales",
       "icon": "spa",
+      "image": "assets/images/stories/assess-legend-of-the-pineapple.jpg",
+      "imageCredit": { "author":"Wilfredor", "license":"CC0", "source":"https://commons.wikimedia.org/wiki/File:Pineapple_fruit_2.jpg", "licenseUrl":"http://creativecommons.org/publicdomain/zero/1.0/deed.en" },
       "color": "#B8860B",
       "paragraphs": [
         "Long ago, in a small village, there lived a mother named Aling Rosa and her only daughter, Pina. Aling Rosa loved Pina very much and did everything for her, so Pina never learned to do chores on her own.",
@@ -113,6 +123,8 @@
       "title": "How Airplanes Fly",
       "topic": "Science",
       "icon": "flight",
+      "image": "assets/images/stories/assess-how-airplanes-fly.jpg",
+      "imageCredit": { "author":"Chris Heaton", "license":"CC BY-SA 2.0", "source":"https://commons.wikimedia.org/wiki/File:Private_Airplane_taking_off_from_Rufforth_Field_-_geograph.org.uk_-_7118605.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/2.0" },
       "color": "#1E88E5",
       "paragraphs": [
         "A big passenger airplane can weigh as much as dozens of elephants, yet it soars through the sky. How is that possible? Four forces are always at work on a plane in flight: lift, weight, thrust and drag.",
@@ -135,6 +147,8 @@
       "title": "Give Trash a Second Life",
       "topic": "Environment",
       "icon": "recycle",
+      "image": "assets/images/stories/assess-recycling.jpg",
+      "imageCredit": { "author":"Terence Ong", "license":"CC BY 2.5", "source":"https://commons.wikimedia.org/wiki/File:NEA_recycling_bins,_Orchard_Road.JPG", "licenseUrl":"https://creativecommons.org/licenses/by/2.5" },
       "color": "#43A047",
       "paragraphs": [
         "Every day, people throw away huge amounts of trash. Much of it ends up in landfills, rivers and oceans, where it can harm animals and pollute the land and water. Plastic is one of the biggest problems, because many plastic items take hundreds of years to break down.",
@@ -157,6 +171,8 @@
       "title": "Your Amazing Heart",
       "topic": "Human Body",
       "icon": "heart",
+      "image": "assets/images/stories/assess-your-heart.jpg",
+      "imageCredit": { "author":"Rachel Sanchez Thwing", "license":"CC BY 4.0", "source":"https://commons.wikimedia.org/wiki/File:Heart_diagram_with_arrows.jpg", "licenseUrl":"https://creativecommons.org/licenses/by/4.0" },
       "color": "#D32F2F",
       "paragraphs": [
         "Make a fist. Your heart is about the same size as your fist, and it is one of the hardest-working muscles in your body. It sits in your chest, a little to the left, protected by your ribs.",

@@ -6,6 +6,8 @@
       "title": "Coral Reefs: Cities Under the Sea",
       "topic": "Ocean",
       "icon": "reef",
+      "image": "assets/images/stories/coral-reefs.png",
+      "imageCredit": { "author":"NOAA Fisheries/Andrew Gray", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:Sea_fans_coral_reef_Pagan_2022.png" },
       "paragraphs": [
         "Beneath the warm, clear waters of tropical seas lie some of the busiest places on the planet: coral reefs. They are often called the rainforests of the sea because so many living things make their homes there.",
         "Many people think coral is a rock or a plant, but it is actually an animal! A coral reef is built by tiny creatures called polyps. Each polyp has a soft body and makes a hard, stony skeleton around itself. When millions of polyps live together for hundreds of years, their skeletons pile up and form a reef.",
@@ -27,6 +29,8 @@
       "title": "Good Vibrations: How Sound Travels",
       "topic": "Science",
       "icon": "hearing",
+      "image": "assets/images/stories/how-sound-travels.jpg",
+      "imageCredit": { "author":"Niranjan Arminius", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:Ibanez_AEB5E_Acoustic_Bass_2_20100730.jpg" },
       "paragraphs": [
         "Clap your hands. Did you hear that? Every sound you have ever heard, from a whisper to a thunderclap, starts the same way: with a vibration. A vibration is a quick back-and-forth movement.",
         "When you pluck a guitar string, it shakes back and forth very fast. The moving string pushes against the air around it and makes the tiny particles of air vibrate too. These particles bump into their neighbors, which bump into their neighbors, passing the vibration along like a wave. This is a sound wave.",
@@ -48,6 +52,8 @@
       "title": "José Rizal: A Hero Who Loved Learning",
       "topic": "Philippine Heroes",
       "icon": "book",
+      "image": "assets/images/stories/jose-rizal.jpg",
+      "imageCredit": { "author":"Unknown author", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:Jose_Rizal_full.jpg" },
       "paragraphs": [
         "José Rizal is one of the national heroes of the Philippines. He was born on June 19, 1861, in the town of Calamba, Laguna. He was the seventh of eleven children in his family.",
         "His first teacher was his mother, Teodora Alonso. She taught him to read when he was very young, and he quickly fell in love with books. As a boy, he also enjoyed drawing, painting and shaping figures out of clay.",
@@ -69,6 +75,8 @@
       "title": "Electricity: From Power Plant to Plug",
       "topic": "Science",
       "icon": "bolt",
+      "image": "assets/images/stories/electricity.jpg",
+      "imageCredit": { "author":"Novoklimov", "license":"CC0", "source":"https://commons.wikimedia.org/wiki/File:Anchor_tower_of_overhead_powerline.jpg", "licenseUrl":"http://creativecommons.org/publicdomain/zero/1.0/deed.en" },
       "paragraphs": [
         "Flip a switch and the lights come on. Plug in a charger and a phone's battery fills up. But where does that electricity come from, and how does it travel all the way to your home?",
         "Most electricity is made in power plants. Inside many of them is a machine called a generator. When a big coil of wire spins near powerful magnets, electricity starts to flow through the wire. To keep the generator spinning, power plants use steam from burning coal or natural gas, falling water from dams, wind turning giant blades, or heat from deep underground. Solar panels are different: they turn sunlight directly into electricity without spinning anything.",
@@ -90,6 +98,8 @@
       "title": "Tandang Sora: Mother of the Revolution",
       "topic": "Philippine Heroes",
       "icon": "healing",
+      "image": "assets/images/stories/tandang-sora.jpg",
+      "imageCredit": { "author":"Unknown author", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:Melchora_Aquino_de_Ramos.jpg" },
       "paragraphs": [
         "Melchora Aquino was born on January 6, 1812, in Banlat, a village in what is now Quezon City. She grew up to be a kind and hardworking woman who ran a small store and farmed rice and sugarcane. People lovingly called her Tandang Sora, meaning Old Sora, because she lived to a very old age.",
         "In 1896, when the Philippine Revolution against Spain began, Tandang Sora was already 84 years old. She was too old to fight, but she found another way to help. She opened her home to members of the Katipunan. She fed hungry revolutionaries, cared for wounded fighters, gave them medicine, and let them hide and hold secret meetings in her home.",
@@ -111,6 +121,8 @@
       "title": "Glaciers and Icebergs",
       "topic": "Earth Science",
       "icon": "snow",
+      "image": "assets/images/stories/glaciers-and-icebergs.jpg",
+      "imageCredit": { "author":"AWeith", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Iceberg_in_the_Arctic_with_its_underside_exposed.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "paragraphs": [
         "In the coldest places on Earth, near the North and South Poles and high in tall mountains, snow falls year after year without ever fully melting. Over hundreds of years, the layers of snow pile up and press down on each other until they turn into thick, solid ice. A huge body of ice like this, heavy enough to move, is called a glacier.",
         "It may be hard to believe, but glaciers flow like very slow rivers. Pulled by their own enormous weight, they creep downhill, sometimes only a few centimeters a day. As they move, they scrape the land beneath them, carving out valleys and carrying rocks for long distances.",

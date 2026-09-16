@@ -38,4 +38,12 @@ void main() {
     expect(green.map((p) => p.order), [0, 1, 2, 3, 4, 5]);
     expect(green.first.id, 'red-panda');
   });
+
+  test('every bundled picture file exists', () {
+    for (final passage in content.passages) {
+      final image = passage.image;
+      if (image == null || image.startsWith('https://')) continue;
+      expect(File(image).existsSync(), isTrue, reason: '${passage.id}: $image is missing');
+    }
+  });
 }

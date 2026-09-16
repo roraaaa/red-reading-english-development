@@ -46,6 +46,14 @@ abstract final class ContentValidator {
       }
       if (passage.questions.isEmpty) problems.add('$where has no questions.');
 
+      final image = passage.image;
+      if (image != null && !image.startsWith('assets/images/stories/') && !image.startsWith('https://')) {
+        problems.add('$where: "image" must be an assets/images/stories/ path or an https:// link.');
+      }
+      if ((image == null) != (passage.imageCredit == null)) {
+        problems.add('$where: "image" and "imageCredit" must be given together, so every photo is credited.');
+      }
+
       final questionIds = <String>{};
       for (final q in passage.questions) {
         final qWhere = '$where, question "${q.id}"';

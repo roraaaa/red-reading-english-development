@@ -6,6 +6,8 @@
       "title": "Sea Turtles",
       "topic": "Ocean",
       "icon": "waves",
+      "image": "assets/images/stories/assess-sea-turtles.jpg",
+      "imageCredit": { "author":"RobertoCostaPinto", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Green_Sea_Turtle_swimming.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "color": "#1FA5B8",
       "paragraphs": [
         "Sea turtles are reptiles that live in the ocean. In the Philippines, people call them pawikan. Sea turtles have been swimming in the oceans since the time of the dinosaurs.",
@@ -26,6 +28,8 @@
       "title": "Our Moon",
       "topic": "Space",
       "icon": "moon",
+      "image": "assets/images/stories/assess-our-moon.jpg",
+      "imageCredit": { "author":"Luc Viatour", "license":"CC BY-SA 3.0", "source":"https://commons.wikimedia.org/wiki/File:Full_Moon_Luc_Viatour.jpg", "licenseUrl":"http://creativecommons.org/licenses/by-sa/3.0/" },
       "color": "#3D6FE0",
       "paragraphs": [
         "On a clear night, the Moon shines brightly in the sky. But did you know the Moon does not make its own light? It shines because it reflects light from the Sun, like a giant mirror.",
@@ -46,6 +50,8 @@
       "title": "The Hardworking Carabao",
       "topic": "Philippine Animals",
       "icon": "agriculture",
+      "image": "assets/images/stories/assess-carabao.jpg",
+      "imageCredit": { "author":"Mhlayson", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Carabao_at_Rest.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "color": "#9C6B3F",
       "paragraphs": [
         "The carabao is a kind of water buffalo. It is big and strong, with gray skin and long, curved horns. Many people call it the national animal of the Philippines.",
@@ -66,6 +72,8 @@
       "title": "How Rainbows Are Made",
       "topic": "Science",
       "icon": "rainbow",
+      "image": "assets/images/stories/assess-rainbows.jpg",
+      "imageCredit": { "author":"Wing-Chi Poon", "license":"CC BY-SA 2.5", "source":"https://commons.wikimedia.org/wiki/File:WhereRainbowRises.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/2.5" },
       "color": "#7E57C2",
       "paragraphs": [
         "Have you ever seen a rainbow after the rain? A rainbow is a big, colorful arc across the sky.",
@@ -86,6 +94,8 @@
       "title": "Penguins: Birds That Swim",
       "topic": "Animals",
       "icon": "snow",
+      "image": "assets/images/stories/assess-penguins.jpg",
+      "imageCredit": { "author":"Christopher Michel", "license":"CC BY 2.0", "source":"https://commons.wikimedia.org/wiki/File:Penguin_in_Antarctica_jumping_out_of_the_water.jpg", "licenseUrl":"https://creativecommons.org/licenses/by/2.0" },
       "color": "#455A9C",
       "paragraphs": [
         "Penguins are birds, but they cannot fly. Instead, they are amazing swimmers. Their wings work like flippers to help them zoom through the water.",
@@ -106,6 +116,8 @@
       "title": "The Lion and the Mouse",
       "topic": "Fables",
       "icon": "pets",
+      "image": "assets/images/stories/assess-lion-and-mouse.png",
+      "imageCredit": { "author":"Harrison Weir", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:Page_31_illustration_to_Three_hundred_Aesop%27s_fables_(Townshend).png" },
       "color": "#D98E04",
       "paragraphs": [
         "One day, a lion was sleeping in the forest. A tiny mouse ran across his nose and woke him up. The lion grabbed the mouse with his big paw.",
@@ -126,6 +138,8 @@
       "title": "Why We Brush Our Teeth",
       "topic": "Health",
       "icon": "smile",
+      "image": "assets/images/stories/assess-brushing-teeth.jpg",
+      "imageCredit": { "author":"Steve Buissinne, South Africa", "license":"CC0", "source":"https://commons.wikimedia.org/wiki/File:Toothbrush,_Toothpaste,_Dental_Care_(571741).jpg", "licenseUrl":"http://creativecommons.org/publicdomain/zero/1.0/deed.en" },
       "color": "#26A69A",
       "paragraphs": [
         "Every time you eat, tiny bits of food stay on your teeth. Germs in your mouth love to eat these bits, too.",
@@ -146,6 +160,8 @@
       "title": "The Jeepney",
       "topic": "Philippines",
       "icon": "bus",
+      "image": "assets/images/stories/assess-jeepney.jpg",
+      "imageCredit": { "author":"Lawrence Ruiz", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Jeepney_in_Legazpi_City.JPG", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "color": "#E53935",
       "paragraphs": [
         "If you ride through the streets of the Philippines, you will probably see a jeepney. Jeepneys are colorful vehicles that carry passengers from place to place.",

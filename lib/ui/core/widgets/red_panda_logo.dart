@@ -23,13 +23,15 @@ class RedPandaLogo extends StatelessWidget {
         label: semanticLabel,
         image: true,
         excludeSemantics: semanticLabel == null,
-        child: CustomPaint(size: Size.square(size), painter: _RedPandaPainter()),
+        child: CustomPaint(size: Size.square(size), painter: RedPandaPainter()),
       ),
     );
   }
 }
 
-class _RedPandaPainter extends CustomPainter {
+/// Draws the RED mascot. Public so `tool/generate_logo_test.dart` can render
+/// the same artwork to PNG files for the app and launcher icons.
+class RedPandaPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final s = size.width / 100;

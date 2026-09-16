@@ -6,6 +6,8 @@
       "title": "Fossils: Clues From the Past",
       "topic": "Science",
       "icon": "museum",
+      "image": "assets/images/stories/assess-fossils.jpg",
+      "imageCredit": { "author":"Brian Deegan", "license":"CC BY-SA 2.0", "source":"https://commons.wikimedia.org/wiki/File:Cetiosaurus_Dinosaur_Skeleton,_Leicester_Museum_-_geograph.org.uk_-_7771936.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/2.0" },
       "color": "#8455E0",
       "paragraphs": [
         "No one has ever seen a living dinosaur, so how do we know what dinosaurs looked like? The answer is fossils. Fossils are the remains or traces of plants and animals that lived long ago, preserved in rock.",
@@ -27,6 +29,8 @@
       "title": "Bamboo: The Amazing Giant Grass",
       "topic": "Plants",
       "icon": "park",
+      "image": "assets/images/stories/assess-bamboo.jpg",
+      "imageCredit": { "author":"Naokijp", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:2021_Sagano_Bamboo_forest_in_Arashiyama,_Kyoto,_Japan.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "color": "#2EAD5F",
       "paragraphs": [
         "It can grow taller than a house, it is stronger than many kinds of wood, and it is actually a type of grass. Meet bamboo, one of the most remarkable plants on Earth.",
@@ -49,6 +53,8 @@
       "title": "The Mariana Trench: The Deepest Place on Earth",
       "topic": "Ocean",
       "icon": "waves",
+      "image": "assets/images/stories/assess-mariana-trench.jpg",
+      "imageCredit": { "author":"Unknown author", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:Bathyscaphe_Trieste.jpg" },
       "color": "#1A237E",
       "paragraphs": [
         "If you could place Mount Everest, the tallest mountain on Earth, at the bottom of the deepest part of the ocean, its peak would still be more than two kilometers under water. That deepest place is the Challenger Deep, at the southern end of the Mariana Trench in the western Pacific Ocean, east of the Philippines.",
@@ -71,6 +77,8 @@
       "title": "Lapu-Lapu and the Battle of Mactan",
       "topic": "Philippine History",
       "icon": "sailing",
+      "image": "assets/images/stories/assess-battle-of-mactan.jpg",
+      "imageCredit": { "author":"JoyiCPH", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Lapu-Lapu_Monument_Illuminated.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "color": "#00838F",
       "paragraphs": [
         "In 1519, a Portuguese explorer named Ferdinand Magellan set sail from Spain with five ships. His voyage, paid for by the King of Spain, was meant to find a western sea route to the Spice Islands, a group of islands in Asia famous for valuable spices like cloves and nutmeg.",
@@ -93,6 +101,8 @@
       "title": "Vaccines: Training Your Body's Defenders",
       "topic": "Health",
       "icon": "vaccine",
+      "image": "assets/images/stories/assess-vaccines.jpg",
+      "imageCredit": { "author":"Spencerbdavis", "license":"CC BY 4.0", "source":"https://commons.wikimedia.org/wiki/File:Solo-mrna-vaccine-7.jpg", "licenseUrl":"https://creativecommons.org/licenses/by/4.0" },
       "color": "#00897B",
       "paragraphs": [
         "Every day, your body meets tiny germs, such as bacteria and viruses, that can make you sick. Luckily, you have a powerful defense team called the immune system. When a harmful germ enters your body, your immune system makes special proteins called antibodies. Antibodies attach to the germ and help destroy it.",
@@ -115,6 +125,8 @@
       "title": "Mangroves: Guardians of the Coast",
       "topic": "Environment",
       "icon": "water",
+      "image": "assets/images/stories/assess-mangroves.jpg",
+      "imageCredit": { "author":"Armusaofficial", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Mangrove_Islet.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "color": "#2E7D32",
       "paragraphs": [
         "Most trees would die if their roots sat in salty seawater, but mangroves are different. These remarkable trees and shrubs grow along tropical coastlines, in the muddy zone where rivers meet the sea and the tide rises and falls each day. The Philippines is home to dozens of kinds of mangroves.",
@@ -137,6 +149,8 @@
       "title": "The Printing Press: Words for Everyone",
       "topic": "History",
       "icon": "print",
+      "image": "assets/images/stories/assess-printing-press.png",
+      "imageCredit": { "author":"International Printing Museum", "license":"CC0", "source":"https://commons.wikimedia.org/wiki/File:Gutenberg_press.png", "licenseUrl":"http://creativecommons.org/publicdomain/zero/1.0/deed.en" },
       "color": "#5D4037",
       "paragraphs": [
         "Today, you can find books in libraries, schools and homes, and you can read almost anything on a screen. But for most of history, books were rare treasures. Before printing, every book had to be copied by hand, letter by letter. Copying one thick book could take a skilled writer many months, so only rich families, churches and universities could own books.",
@@ -159,6 +173,8 @@
       "title": "Why Your Brain Needs Sleep",
       "topic": "Human Body",
       "icon": "bed",
+      "image": "assets/images/stories/assess-sleep.jpg",
+      "imageCredit": { "author":"Eirik Newth from Oslo, Oslo", "license":"CC BY 2.0", "source":"https://commons.wikimedia.org/wiki/File:Eirik_Newth-A_sleeping_kitten-02.jpg", "licenseUrl":"https://creativecommons.org/licenses/by/2.0" },
       "color": "#3949AB",
       "paragraphs": [
         "You will spend about one-third of your life asleep. It might seem like nothing is happening while you sleep, but your body and brain are actually very busy.",

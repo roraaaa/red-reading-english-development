@@ -95,4 +95,25 @@ void main() {
     expect(encoded['order'], {'integerValue': '0'});
     expect(() => FirestoreValues.encode([['a']]), throwsArgumentError);
   });
+
+  test('a picture and its photo credit survive a round trip', () {
+    final withPicture = {
+      ...bundledPassage,
+      'image': 'assets/images/stories/assess-intramuros.jpg',
+      'imageCredit': {
+        'author': 'Jane Doe',
+        'license': 'CC BY-SA 4.0',
+        'source': 'https://commons.wikimedia.org/wiki/File:Example.jpg',
+        'licenseUrl': 'https://creativecommons.org/licenses/by-sa/4.0',
+      },
+    };
+    final copy = Passage.fromJson(
+      jsonDecode(jsonEncode(Passage.fromJson(withPicture).toJson())) as Map<String, dynamic>,
+    );
+
+    expect(copy.image, 'assets/images/stories/assess-intramuros.jpg');
+    expect(copy.imageCredit!.label, 'Photo: Jane Doe (CC BY-SA 4.0)');
+    expect(copy.imageCredit!.licenseUrl, startsWith('https://creativecommons.org'));
+    expect(Passage.fromJson(bundledPassage).toJson().containsKey('image'), isFalse);
+  });
 }

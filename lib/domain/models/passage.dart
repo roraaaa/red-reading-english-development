@@ -61,6 +61,42 @@ class ReadingLevel {
   };
 }
 
+/// Who made a story's picture and under which licence, so it can be
+/// credited in the app.
+class ImageCredit {
+  const ImageCredit({
+    required this.author,
+    required this.license,
+    required this.source,
+    this.licenseUrl,
+  });
+
+  final String author;
+
+  /// Short licence name, e.g. "CC BY-SA 4.0" or "Public domain".
+  final String license;
+
+  /// Web page where the original picture was found.
+  final String source;
+  final String? licenseUrl;
+
+  String get label => 'Photo: $author ($license)';
+
+  factory ImageCredit.fromJson(Map<String, dynamic> json) => ImageCredit(
+    author: json['author'] as String,
+    license: json['license'] as String,
+    source: json['source'] as String,
+    licenseUrl: json['licenseUrl'] as String?,
+  );
+
+  Map<String, dynamic> toJson() => {
+    'author': author,
+    'license': license,
+    'source': source,
+    'licenseUrl': ?licenseUrl,
+  };
+}
+
 /// One topic card: a short text about a single subject plus its questions.
 /// Materials have a [levelId]; assessment cards have a [difficulty].
 class Passage {
@@ -75,6 +111,8 @@ class Passage {
     this.levelId,
     this.difficulty,
     this.order = 0,
+    this.image,
+    this.imageCredit,
   });
 
   final String id;
@@ -90,6 +128,11 @@ class Passage {
   final int order;
   final List<String> paragraphs;
   final List<Question> questions;
+
+  /// A picture for the card: an app asset path (`assets/images/stories/...`)
+  /// or an `https://` link. Without one, the card shows [icon].
+  final String? image;
+  final ImageCredit? imageCredit;
 
   int get wordCount => paragraphs
       .expand((p) => p.split(RegExp(r'\s+')))
@@ -107,6 +150,10 @@ class Passage {
     levelId: json['level'] as String?,
     difficulty: Difficulty.fromName(json['difficulty'] as String?),
     order: json['order'] as int? ?? order,
+    image: json['image'] as String?,
+    imageCredit: json['imageCredit'] == null
+        ? null
+        : ImageCredit.fromJson(Map<String, dynamic>.from(json['imageCredit'] as Map)),
     paragraphs: (json['paragraphs'] as List).cast<String>(),
     questions: (json['questions'] as List)
         .map((q) => Question.fromJson(Map<String, dynamic>.from(q as Map)))
@@ -122,6 +169,8 @@ class Passage {
     if (levelId != null) 'level': levelId,
     if (difficulty != null) 'difficulty': difficulty!.name,
     'order': order,
+    'image': ?image,
+    if (imageCredit != null) 'imageCredit': imageCredit!.toJson(),
     'paragraphs': paragraphs,
     'questions': [for (final q in questions) q.toJson()],
   };

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "5815954071",
+    "project_id": "red-readingenglishdevelopment",
+    "storage_bucket": "red-readingenglishdevelopment.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5815954071:android:66db8b1fb15572d1b317d2",
+        "android_client_info": {
+          "package_name": "com.redreading.red"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMr81_tbgBBO9Z5Q-eGySf_1iqO3aieas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

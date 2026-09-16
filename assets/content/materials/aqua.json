@@ -6,6 +6,8 @@
       "title": "The Red Planet: Mars",
       "topic": "Space",
       "icon": "rocket",
+      "image": "assets/images/stories/mars.jpg",
+      "imageCredit": { "author":"NASA/ESA/STScl", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:Mars_from_Hubble_(Dec._13,_1990).jpg" },
       "paragraphs": [
         "Mars is the fourth planet from the Sun. When you look at it through a telescope, it looks orange-red. That is why people call it the Red Planet.",
         "Mars gets its color from its dusty ground. The dust has iron in it, and the iron has turned to rust, just like an old bike left out in the rain.",
@@ -26,6 +28,8 @@
       "title": "Busy Honeybees",
       "topic": "Insects",
       "icon": "bee",
+      "image": "assets/images/stories/honeybees.jpg",
+      "imageCredit": { "author":"John Severns ( Severnjc )", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:European_honey_bee_extracts_nectar.jpg" },
       "paragraphs": [
         "A honeybee may be tiny, but it is a very hard worker. Honeybees live together in a big group called a colony. A colony can have thousands of bees!",
         "Every colony has one queen bee. Her job is to lay eggs. Most of the other bees are worker bees. They build the hive, keep it clean, look after the baby bees and gather food.",
@@ -46,6 +50,8 @@
       "title": "The Ugly Duckling",
       "topic": "Fairy Tales",
       "icon": "egg",
+      "image": "assets/images/stories/ugly-duckling.jpg",
+      "imageCredit": { "author":"Milo Winter", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:The_Ugly_Duckling_cropped.jpg" },
       "paragraphs": [
         "One summer, a mother duck sat on her nest by the pond. One by one, her eggs cracked open and fluffy yellow ducklings came out. But the last egg was the biggest, and the bird that hatched from it was large and gray.",
         "\"What an ugly duckling!\" the other animals said. They teased him and pushed him away. The little bird felt so sad and lonely that he ran away from the farm.",
@@ -66,6 +72,8 @@
       "title": "Elephants: The Largest Land Animals",
       "topic": "Animals",
       "icon": "pets",
+      "image": "assets/images/stories/elephants.jpg",
+      "imageCredit": { "author":"Giles Laurent", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:079_Herd_of_African_bush_elephants_drinking_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "paragraphs": [
         "Elephants are the largest animals that live on land. An adult African elephant can weigh as much as a small truck!",
         "An elephant's trunk is its nose and upper lip joined together, and it is very useful. Elephants use their trunks to breathe, smell, drink water, pick up food and even greet each other.",
@@ -85,6 +93,8 @@
       "title": "The Sun: Our Nearest Star",
       "topic": "Space",
       "icon": "sun",
+      "image": "assets/images/stories/the-sun.jpg",
+      "imageCredit": { "author":"NASA/SDO (AIA)", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg" },
       "paragraphs": [
         "Every morning, the Sun rises and lights up our day. But did you know the Sun is a star? It is the star closest to Earth.",
         "The Sun is a giant ball of very hot, glowing gas. It is so big that more than a million Earths could fit inside it!",
@@ -105,6 +115,8 @@
       "title": "The Boy Who Cried Wolf",
       "topic": "Fables",
       "icon": "landscape",
+      "image": "assets/images/stories/boy-who-cried-wolf.jpg",
+      "imageCredit": { "author":"No.cilepogača", "license":"CC BY 4.0", "source":"https://commons.wikimedia.org/wiki/File:%D0%9E%D0%B2%D1%86%D0%B5_%D0%BF%D0%B0%D1%81%D1%83_%D1%82%D1%80%D0%B0%D0%B2%D1%83_%D0%BD%D0%B0_%D0%BF%D0%B0%D1%88%D1%9A%D0%B0%D0%BA%D1%83_%D0%BA%D0%BE%D0%B4_%D0%9B%D0%BE%D0%BA%D0%B0,_%D0%A2%D0%B8%D1%82%D0%B5%D0%BB.jpg", "licenseUrl":"https://creativecommons.org/licenses/by/4.0" },
       "paragraphs": [
         "A young shepherd boy watched over his village's sheep on a hill. The days were long, and he was bored.",
         "One day, he shouted, \"Wolf! Wolf! A wolf is chasing the sheep!\" The villagers ran up the hill to help, but there was no wolf. The boy laughed at them.",

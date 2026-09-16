@@ -5,6 +5,21 @@ import 'package:flutter_tts/flutter_tts.dart';
 
 enum SpeechOutcome { completed, stopped, failed }
 
+/// Day and month abbreviations that text-to-speech engines expand when they
+/// are followed by a full stop: "the Sun." is read aloud as "the Sunday".
+///
+/// Swapping that full stop for a comma stops the expansion and keeps a pause.
+/// The replacement is exactly as long as the original, so the word positions
+/// the engine reports still line up with the text on screen.
+abstract final class SpeechText {
+  static final _abbreviationLike = RegExp(
+    r'\b(Sun|Mon|Tue|Tues|Wed|Thu|Thur|Thurs|Fri|Sat|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\.(?=\s|$)',
+  );
+
+  static String forSpeech(String text) =>
+      text.replaceAllMapped(_abbreviationLike, (match) => '${match[1]},');
+}
+
 /// Called while speaking with the character range of the word being spoken,
 /// relative to the text passed to [SpeechService.speak].
 typedef SpeechProgressCallback = void Function(int start, int end);
@@ -92,7 +107,7 @@ class DeviceSpeechService implements SpeechService {
     _onProgress = onProgress;
     _started = false;
     try {
-      await _tts.speak(text);
+      await _tts.speak(SpeechText.forSpeech(text));
     } catch (e) {
       debugPrint('Text-to-speech could not speak: $e');
       _finish(SpeechOutcome.failed);

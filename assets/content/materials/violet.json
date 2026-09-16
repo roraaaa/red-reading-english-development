@@ -6,6 +6,8 @@
       "title": "How Plants Make Food",
       "topic": "Science",
       "icon": "sun",
+      "image": "assets/images/stories/photosynthesis.jpg",
+      "imageCredit": { "author":"W.carter", "license":"CC0", "source":"https://commons.wikimedia.org/wiki/File:Sunlight_on_beech_leaves_in_Gullmarsskogen_ravine_6.jpg", "licenseUrl":"http://creativecommons.org/publicdomain/zero/1.0/deed.en" },
       "paragraphs": [
         "You get energy from the food you eat. But have you ever wondered what plants eat? Plants cannot walk to a kitchen or hunt for a snack. Instead, they make their own food in an amazing process called photosynthesis.",
         "The word photosynthesis comes from two Greek words: \"photo,\" meaning light, and \"synthesis,\" meaning putting together. So photosynthesis means putting things together using light.",
@@ -27,6 +29,8 @@
       "title": "The Great Wall of China",
       "topic": "History",
       "icon": "castle",
+      "image": "assets/images/stories/great-wall.jpg",
+      "imageCredit": { "author":"Velatrix", "license":"CC0", "source":"https://commons.wikimedia.org/wiki/File:Great_Wall_of_China_July_2006.JPG", "licenseUrl":"http://creativecommons.org/publicdomain/zero/1.0/deed.en" },
       "paragraphs": [
         "Imagine a wall so long that it would take you well over a year to walk from one end to the other. That wall is real! It is the Great Wall of China, one of the most famous structures on Earth.",
         "The Great Wall is not just one wall. It is a long chain of walls, towers and forts built over more than 2,000 years. Different rulers of China kept building, repairing and joining the walls. Most of the parts that tourists visit today were built during the Ming dynasty, hundreds of years ago.",
@@ -48,6 +52,8 @@
       "title": "The Emperor's Seeds",
       "topic": "Values",
       "icon": "sprout",
+      "image": "assets/images/stories/emperors-seeds.jpg",
+      "imageCredit": { "author":"Shixart1985", "license":"CC BY 2.0", "source":"https://commons.wikimedia.org/wiki/File:New_plant_sprouting_from_soil_in_black_pot_on_a_sunny_day_in_the_garden.jpg", "licenseUrl":"https://creativecommons.org/licenses/by/2.0" },
       "paragraphs": [
         "Long ago, a wise emperor was growing old. He had no children, so he needed to choose someone to rule the kingdom after him. He came up with a clever plan.",
         "The emperor called all the children of the kingdom to the palace and gave each child one seed. \"Plant this seed and care for it,\" he said. \"Come back in one year and show me what you have grown.\"",
@@ -69,6 +75,8 @@
       "title": "Haribon, the Mighty Eagle",
       "topic": "Philippine Animals",
       "icon": "bird",
+      "image": "assets/images/stories/haribon-eagle.jpg",
+      "imageCredit": { "author":"Constantine Agustin from Manila, Philippines", "license":"CC BY-SA 2.0", "source":"https://commons.wikimedia.org/wiki/File:Pithecophaga_jefferyi_-Philippine_Eagle_Center,_Davao_City,_Philippines-8a.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/2.0" },
       "paragraphs": [
         "Soaring above the rainforests of Mindanao, Luzon, Samar and Leyte is one of the largest and most powerful eagles in the world: the Philippine eagle. Long brown and cream feathers form a shaggy crest on its head, like a lion's mane, and its wings can stretch about two meters from tip to tip.",
         "The Philippine eagle was once called the monkey-eating eagle, because monkeys are among the animals it hunts. Its most common prey, though, is often the colugo, a gliding mammal also called the flying lemur. It also catches snakes, bats and large birds. People often call the eagle Haribon, from the Filipino words haring ibon, meaning king of birds.",
@@ -89,6 +97,8 @@
       "title": "The Bones Inside You",
       "topic": "Human Body",
       "icon": "bone",
+      "image": "assets/images/stories/bones-inside-you.jpg",
+      "imageCredit": { "author":"Sam Nabi", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Skeleton_model_20200122_184823074_iOS.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "paragraphs": [
         "Without your bones, you would flop onto the floor like a pile of jelly! Your bones form your skeleton, the strong frame that holds your body up, gives it shape and helps you move.",
         "An adult's skeleton has 206 bones. A newborn baby has around 300, but as the baby grows, some of those bones join together. The longest and strongest bone is the thigh bone, called the femur. The smallest is the stirrup bone, deep inside your ear, which is only about as big as a grain of rice.",
@@ -110,6 +120,8 @@
       "title": "Why the Sky Is So High",
       "topic": "Filipino Folk Tales",
       "icon": "cloud",
+      "image": "assets/images/stories/why-the-sky-is-high.jpg",
+      "imageCredit": { "author":"U.S. Department of Agriculture", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:Night_sky_with_moon_and_stars_over_cotton_field_in_Batesville,_Texas.jpg" },
       "paragraphs": [
         "Long, long ago, the old people say, the sky was so low that a tall man could touch it just by reaching up. Clouds brushed against the rooftops, and people had to bend down when they walked outside.",
         "In one village lived a hardworking young woman who pounded rice every morning. She used a large wooden mortar and a long pestle, lifting the pestle high above her head and bringing it down hard to loosen the husks from the grains.",

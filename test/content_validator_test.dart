@@ -79,4 +79,42 @@ void main() {
     expect(ContentValidator.titleKeywords('Why Your Brain Needs Sleep').keys.toSet(), {'brain', 'need', 'sleep'});
     expect(ContentValidator.titleKeywords('The Red Planet: Mars').keys, contains(AnswerGrader.canonical('mars')));
   });
+
+  test('every picture needs a photo credit and a valid location', () {
+    ContentSnapshot withStoryPicture(String? image, ImageCredit? credit) {
+      final base = _content(storyTitle: 'The Red Panda', cardTitle: 'Sea Turtles');
+      final story = base.passages.first;
+      return ContentSnapshot(
+        version: 0,
+        levels: base.levels,
+        passages: [
+          Passage(
+            id: story.id,
+            title: story.title,
+            topic: story.topic,
+            icon: story.icon,
+            levelId: story.levelId,
+            paragraphs: story.paragraphs,
+            questions: story.questions,
+            image: image,
+            imageCredit: credit,
+          ),
+          ...base.passages.skip(1),
+        ],
+      );
+    }
+
+    const credit = ImageCredit(author: 'A. Photographer', license: 'CC0', source: 'https://example.org/photo');
+
+    expect(ContentValidator.validate(withStoryPicture('assets/images/stories/story.jpg', credit)), isEmpty);
+    expect(ContentValidator.validate(withStoryPicture('https://example.org/panda.jpg', credit)), isEmpty);
+    expect(
+      ContentValidator.validate(withStoryPicture('assets/images/stories/story.jpg', null)).single,
+      contains('imageCredit'),
+    );
+    expect(
+      ContentValidator.validate(withStoryPicture('C:/Users/me/panda.jpg', credit)).single,
+      contains('assets/images/stories/'),
+    );
+  });
 }

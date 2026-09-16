@@ -6,6 +6,8 @@
       "title": "The Red Panda",
       "topic": "Animals",
       "icon": "pets",
+      "image": "assets/images/stories/red-panda.jpg",
+      "imageCredit": { "author":"Mathias Appel", "license":"CC0", "source":"https://commons.wikimedia.org/wiki/File:Red_Panda_(24986761703).jpg", "licenseUrl":"http://creativecommons.org/publicdomain/zero/1.0/deed.en" },
       "paragraphs": [
         "Red pandas are small, furry animals with red-brown fur and long, bushy tails. They are about the size of a house cat.",
         "Red pandas live in cool mountain forests in Asia, in places like Nepal, Bhutan and China. They spend most of their time up in the trees. They even sleep on high branches.",
@@ -25,6 +27,8 @@
       "title": "The Tortoise and the Hare",
       "topic": "Fables",
       "icon": "trophy",
+      "image": "assets/images/stories/tortoise-and-hare.jpg",
+      "imageCredit": { "author":"Arthur Rackham", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:Tortoise_and_hare_rackham.jpg" },
       "paragraphs": [
         "Hare was the fastest animal in the forest, and he liked to brag about it. \"No one can beat me in a race!\" he said.",
         "Tortoise was slow, but he was tired of hearing Hare boast. \"I will race you,\" said Tortoise. All the animals laughed.",
@@ -45,6 +49,8 @@
       "title": "From Egg to Butterfly",
       "topic": "Nature",
       "icon": "flower",
+      "image": "assets/images/stories/egg-to-butterfly.jpg",
+      "imageCredit": { "author":"Charles J. Sharp", "license":"CC BY-SA 3.0", "source":"https://commons.wikimedia.org/wiki/File:Peacock_butterfly_(Aglais_io)_2.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0" },
       "paragraphs": [
         "Did you know that a butterfly starts its life as a tiny egg? A mother butterfly lays her eggs on a leaf.",
         "When an egg hatches, a caterpillar crawls out. The hungry caterpillar eats and eats. It grows bigger and bigger.",
@@ -64,6 +70,8 @@
       "title": "The Busy Ant",
       "topic": "Insects",
       "icon": "bug",
+      "image": "assets/images/stories/busy-ant.jpg",
+      "imageCredit": { "author":"DKDEVS", "license":"CC0", "source":"https://commons.wikimedia.org/wiki/File:Ants_carrying_food.jpg", "licenseUrl":"http://creativecommons.org/publicdomain/zero/1.0/deed.en" },
       "paragraphs": [
         "Ants are tiny insects, but they are very strong. An ant can carry things that are much heavier than its own body!",
         "Ants live together in big groups called colonies. Many colonies build their homes, called nests, under the ground.",
@@ -82,6 +90,8 @@
       "title": "My Five Senses",
       "topic": "Human Body",
       "icon": "hand",
+      "image": "assets/images/stories/five-senses.jpg",
+      "imageCredit": { "author":"Ivar Leidus", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Mangos_-_single_and_halved.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "paragraphs": [
         "Your body has five senses. They help you learn about the world around you.",
         "You see with your eyes. You hear with your ears. You smell with your nose.",
@@ -101,6 +111,8 @@
       "title": "The Crow and the Pitcher",
       "topic": "Fables",
       "icon": "drop",
+      "image": "assets/images/stories/crow-and-pitcher.jpg",
+      "imageCredit": { "author":"Arthur Rackham", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:Aesops_Fables-Rackham-059.jpg" },
       "paragraphs": [
         "It was a hot, dry day. A thirsty crow flew around looking for water.",
         "At last, the crow found a pitcher with a little water at the bottom. But the pitcher was tall, and the crow's beak could not reach the water.",

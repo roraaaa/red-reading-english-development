@@ -6,6 +6,8 @@
       "title": "Black Holes: Where Light Can't Escape",
       "topic": "Space",
       "icon": "galaxy",
+      "image": "assets/images/stories/black-holes.jpg",
+      "imageCredit": { "author":"Event Horizon Telescope", "license":"CC BY 4.0", "source":"https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87.jpg", "licenseUrl":"https://creativecommons.org/licenses/by/4.0" },
       "paragraphs": [
         "Imagine something so heavy and so tightly packed that nothing can escape its pull, not even light, the fastest thing in the universe. That is a black hole. Because no light comes out of it, a black hole looks completely black, which is how it got its name.",
         "Most black holes form when a very large star runs out of fuel. Without the energy that pushed outward from its center, the star can no longer hold itself up. Its core collapses under its own gravity, squeezing an enormous amount of matter into a tiny space. Some black holes are several times heavier than our Sun, while the giant ones at the centers of galaxies are millions or even billions of times heavier.",
@@ -27,6 +29,8 @@
       "title": "Andrés Bonifacio and the Katipunan",
       "topic": "Philippine Heroes",
       "icon": "flag",
+      "image": "assets/images/stories/andres-bonifacio.jpg",
+      "imageCredit": { "author":"Chofre y Cia (now Cacho Hermanos Inc.)", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Bonifacio_photo_(cropped).jpg" },
       "paragraphs": [
         "Andrés Bonifacio was born on November 30, 1863, in Tondo, Manila. His family was not rich. When he was a teenager, both of his parents died, and he left school to take care of his younger brothers and sisters. To earn money, he made and sold canes and paper fans. Later, he worked as a clerk and messenger for companies in Manila.",
         "Even though he stopped going to school, Bonifacio never stopped learning. He taught himself by reading many books, including the novels of José Rizal and books about the French Revolution. These books helped him see that Filipinos living under Spanish rule deserved freedom and fair treatment.",
@@ -48,6 +52,8 @@
       "title": "The Amazing Octopus",
       "topic": "Ocean Animals",
       "icon": "bubbles",
+      "image": "assets/images/stories/amazing-octopus.jpg",
+      "imageCredit": { "author":"Betty Wills (Atsme)", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Octopus_in_the_New_England_Aquarium.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "paragraphs": [
         "With eight wiggly arms, three hearts and blue blood, the octopus might sound like a creature from a science-fiction movie. But it is real, and it lives in oceans all around the world, from warm coral reefs to the cold, dark deep sea.",
         "An octopus has no bones at all. Its only hard body part is its beak, shaped a little like a parrot's, which it uses to crack open crabs and clams. Because the rest of its body is soft, an octopus can squeeze through any gap bigger than its beak. Some octopuses kept in aquariums have even escaped from their tanks this way!",
@@ -69,6 +75,8 @@
       "title": "DNA: The Code Inside Every Cell",
       "topic": "Science",
       "icon": "science",
+      "image": "assets/images/stories/dna.jpg",
+      "imageCredit": { "author":"Ude", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:DNA_Helix_CPK.jpg" },
       "paragraphs": [
         "Why do you have your mother's smile or your grandfather's curly hair? Why does a mango seed grow into a mango tree and never into a coconut palm? The answer is hidden inside living cells, in a molecule called DNA.",
         "Your body is made of trillions of tiny cells, and tucked inside most of them is DNA: a very long, very thin molecule shaped like a twisted ladder. Scientists call this shape a double helix. If you could unwind the DNA from just one of your cells and stretch it out, it would be about two meters long, yet it fits inside a space far smaller than the dot on a letter i.",
@@ -90,6 +98,8 @@
       "title": "The Great Pyramid of Giza",
       "topic": "History",
       "icon": "pyramid",
+      "image": "assets/images/stories/great-pyramid.jpg",
+      "imageCredit": { "author":"kallerna", "license":"CC BY-SA 3.0", "source":"https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0" },
       "paragraphs": [
         "On the edge of the desert near Cairo, Egypt, stands one of the oldest and most famous buildings on Earth: the Great Pyramid of Giza. It was built about 4,500 years ago as a tomb for a pharaoh, or king, named Khufu. It is the oldest of the Seven Wonders of the Ancient World, and the only one still standing.",
         "The Great Pyramid is enormous. It was built from about 2.3 million blocks of stone, and many of them weigh more than two tons each, about as much as a small car. When it was finished, it rose about 146 meters high. For nearly 4,000 years, it was the tallest structure people had ever built.",
@@ -111,6 +121,8 @@
       "title": "Artificial Intelligence: How Computers Learn",
       "topic": "Technology",
       "icon": "robot",
+      "image": "assets/images/stories/artificial-intelligence.jpg",
+      "imageCredit": { "author":"Sven Volkens", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Humanoider-Roboter-DASA.JPG", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "paragraphs": [
         "When you ask a voice assistant about the weather, get a movie suggestion on a video app or use a tool that translates English into Filipino, you are using artificial intelligence, or AI. AI is a kind of computer program that can do tasks that usually need human thinking, like recognizing pictures, understanding speech and answering questions.",
         "Most computer programs follow exact rules written by programmers. Many AI systems work differently: they learn from examples. Imagine teaching a computer to recognize cats. Instead of describing every kind of cat, people show it thousands of photos labeled \"cat\" and \"not a cat.\" The program searches for patterns, such as pointy ears and whiskers, and slowly gets better at telling them apart. Learning from lots of examples like this is called machine learning.",

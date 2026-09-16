@@ -6,6 +6,7 @@ import '../../../core/theme/app_colors.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../../core/widgets/animations.dart';
 import '../../../core/widgets/chunky_button.dart';
+import '../../../core/widgets/story_cover.dart';
 import '../../../core/widgets/surfaces.dart';
 import '../view_models/read_aloud_controller.dart';
 import '../view_models/reading_session_view_model.dart';
@@ -122,7 +123,8 @@ class _ReadingViewState extends State<ReadingView> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    FadeSlideIn(child: TopicCover(icon: passage.icon, color: color, height: 170)),
+                    FadeSlideIn(child: StoryCover(passage: passage, color: color, height: 190)),
+                    if (passage.imageCredit case final credit?) PhotoCredit(credit: credit),
                     const SizedBox(height: 18),
                     FadeSlideIn(
                       delay: const Duration(milliseconds: 100),

@@ -6,6 +6,8 @@
       "title": "Mayon Volcano",
       "topic": "Philippines",
       "icon": "volcano",
+      "image": "assets/images/stories/mayon-volcano.jpg",
+      "imageCredit": { "author":"Marisa Mercado", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Mayon_Volcano_as_of_March_2020.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "paragraphs": [
         "In the province of Albay, in the Bicol Region of the Philippines, stands one of the most beautiful mountains in the world. It is Mayon Volcano, and it is famous for its almost perfect cone shape.",
         "Mayon is about 2,460 meters tall. It is an active volcano, which means it can still erupt. In fact, it is one of the most active volcanoes in the country. Scientists from PHIVOLCS watch it closely so they can warn the people living nearby when it becomes restless.",
@@ -26,6 +28,8 @@
       "title": "The Water Cycle",
       "topic": "Science",
       "icon": "drop",
+      "image": "assets/images/stories/water-cycle.png",
+      "imageCredit": { "author":"NASA's Scientific Visualization Studio - Marit Jentoft-Nilsen, Global Science an", "license":"Public domain", "source":"https://commons.wikimedia.org/wiki/File:The_Water_Cycle_(SVS30580).png" },
       "paragraphs": [
         "The water you drink today might once have been part of a cloud, an ocean, or even a dinosaur's drinking pond! That is because Earth keeps using the same water again and again in a never-ending journey called the water cycle.",
         "The journey begins with evaporation. When the Sun heats water in oceans, rivers and lakes, some of it turns into an invisible gas called water vapor. The vapor rises up into the sky.",
@@ -46,6 +50,8 @@
       "title": "The Goose That Laid the Golden Eggs",
       "topic": "Fables",
       "icon": "sparkle",
+      "image": "assets/images/stories/golden-goose.jpg",
+      "imageCredit": { "author":"JJ Harrison", "license":"CC BY-SA 3.0", "source":"https://commons.wikimedia.org/wiki/File:Domestic_Goose.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0" },
       "paragraphs": [
         "Once upon a time, a poor farmer and his wife lived in a small house with a few animals. One morning, the farmer went to collect eggs and found something amazing. In his goose's nest was an egg made of shining gold!",
         "He could hardly believe it. He took the egg to the market and sold it for a lot of money. The next morning, the goose laid another golden egg, and the next morning, another. Soon the farmer and his wife were rich.",
@@ -66,6 +72,8 @@
       "title": "The Banaue Rice Terraces",
       "topic": "Philippines",
       "icon": "terrain",
+      "image": "assets/images/stories/banaue-rice-terraces.jpg",
+      "imageCredit": { "author":"CEphoto, Uwe Aranas", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Banaue_Philippines_Batad-Rice-Terraces-04.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "paragraphs": [
         "High in the mountains of Ifugao, in the northern Philippines, giant green steps climb up the steep slopes. These are the Banaue Rice Terraces: flat fields carved into the mountainsides so that rice can grow where the land is too steep for ordinary farms.",
         "The terraces were built by hand by the Ifugao people, using simple tools. They shaped the soil and built walls of mud and stone to hold each step in place. Experts still discuss exactly how old the terraces are, but families have farmed them for hundreds of years.",
@@ -85,6 +93,8 @@
       "title": "The Magic of Magnets",
       "topic": "Science",
       "icon": "compass",
+      "image": "assets/images/stories/magic-of-magnets.jpg",
+      "imageCredit": { "author":"MikeRun , Vera Wurmsdobler", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Bar-magnet-iron-filings_max.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "paragraphs": [
         "Have you ever stuck a picture to the refrigerator with a magnet? A magnet is an object that can pull certain metals toward it without even touching them. This invisible pull is called magnetic force.",
         "Magnets attract things made of iron, nickel and steel, like paper clips and nails. But they do not attract wood, plastic, paper or glass. They do not even pull on aluminum cans.",
@@ -104,6 +114,8 @@
       "title": "Juan Tamad and the Guava Tree",
       "topic": "Filipino Folk Tales",
       "icon": "tree",
+      "image": "assets/images/stories/juan-tamad.jpg",
+      "imageCredit": { "author":"Gaurav Dhwaj Khadka", "license":"CC BY-SA 4.0", "source":"https://commons.wikimedia.org/wiki/File:Guava_Fruit.jpg", "licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0" },
       "paragraphs": [
         "Juan was a boy who did not like to work. He was so lazy that everyone in the village called him Juan Tamad, which means Lazy Juan.",
         "One sunny afternoon, Juan's mother asked him to go to the market. On the way, he passed a guava tree full of ripe, sweet fruit. Juan's mouth watered. But instead of climbing the tree or shaking a branch, he lay down right under it.",

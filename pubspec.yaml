@@ -28,11 +28,29 @@ dev_dependencies:
   flutter_lints: ^6.0.0
   googleapis_auth: ^2.3.3
   http: ^1.6.0
+  flutter_launcher_icons: ^0.14.4
 
 flutter:
   uses-material-design: true
   assets:
     - assets/images/
+    - assets/images/stories/
     - assets/content/
     - assets/content/materials/
     - assets/content/assessments/
+
+# Launcher icons, generated from the drawn mascot by:
+#   flutter test tool/generate_logo_test.dart   (renders the PNGs)
+#   dart run flutter_launcher_icons             (builds the platform icons)
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  adaptive_icon_background: "#FFF7EE"
+  adaptive_icon_foreground: "assets/images/app_icon_foreground.png"
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/images/app_icon.png"
+    background_color: "#FFF7EE"
+    theme_color: "#CC3F28"
