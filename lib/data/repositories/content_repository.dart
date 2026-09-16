@@ -120,7 +120,7 @@ class ContentRepository extends ChangeNotifier {
       _content.passages.where((p) => p.difficulty == difficulty).length;
 
   /// A random card of the given difficulty, avoiding [recentIds] when possible
-  /// so the child does not get the same card twice in a row.
+  /// so the reader does not get the same card twice in a row.
   Passage randomAssessment(Difficulty difficulty, {Set<String> recentIds = const {}}) {
     final pool = _content.passages.where((p) => p.difficulty == difficulty).toList();
     if (pool.isEmpty) {

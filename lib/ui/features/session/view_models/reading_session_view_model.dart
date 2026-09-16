@@ -94,7 +94,7 @@ class ReadingSessionViewModel extends ChangeNotifier {
   bool get currentAnswered => responseFor(currentQuestion).trim().isNotEmpty;
   int get answeredCount => questions.where((q) => responseFor(q).trim().isNotEmpty).length;
 
-  /// Materials let children look back at the story; assessments do not.
+  /// Materials let readers look back at the story; assessments do not.
   bool get canPeekAtStory => !isAssessment;
 
   void answer(String response) {

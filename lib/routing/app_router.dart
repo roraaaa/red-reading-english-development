@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 
 import '../data/repositories/auth_repository.dart';
 import '../domain/models/passage.dart';
+import '../ui/features/account/views/account_screen.dart';
 import '../ui/features/assess/views/assess_intro_screen.dart';
 import '../ui/features/auth/views/login_screen.dart';
 import '../ui/features/auth/views/sign_up_screen.dart';
@@ -21,6 +22,7 @@ abstract final class Routes {
   static const assess = '/assess';
   static const materials = '/materials';
   static const progress = '/progress';
+  static const account = '/account';
 
   static String assessSession(Difficulty d) => '/assess/session?difficulty=${d.name}';
   static String level(String levelId) => '/materials/$levelId';
@@ -85,6 +87,7 @@ GoRouter createRouter(AuthRepository auth) {
             ],
           ),
           GoRoute(path: 'progress', pageBuilder: (c, s) => _slide(s, const ProgressScreen())),
+          GoRoute(path: 'account', pageBuilder: (c, s) => _slide(s, const AccountScreen())),
         ],
       ),
     ],

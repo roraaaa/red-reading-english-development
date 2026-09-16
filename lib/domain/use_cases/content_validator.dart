@@ -4,7 +4,7 @@ import '../models/question.dart';
 import 'answer_grader.dart';
 
 /// Checks reading content for mistakes that would break a session or grade
-/// a child unfairly. Used by the tests and by `tool/upload_content.dart`
+/// a reader unfairly. Used by the tests and by `tool/upload_content.dart`
 /// before anything is published.
 abstract final class ContentValidator {
   /// Returns a list of problems; empty means the content is valid.
@@ -78,7 +78,7 @@ abstract final class ContentValidator {
       }
     }
 
-    // Assessment topics are exclusive: a child should never have practised
+    // Assessment topics are exclusive: a reader should never have practised
     // the exact topic in Materials before being assessed on it.
     final assessments = content.passages.where((p) => p.difficulty != null).toList();
     for (final story in content.passages.where((p) => p.levelId != null)) {

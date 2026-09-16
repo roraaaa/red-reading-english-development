@@ -1,5 +1,5 @@
 name: red
-description: "RED (Reading English Development) - a reading comprehension app for kids."
+description: "RED (Reading English Development) - an English reading comprehension app for students and self-learners."
 publish_to: 'none'
 version: 0.1.0+1
 
@@ -21,6 +21,7 @@ dependencies:
   printing: ^5.15.0
   provider: ^6.1.5+1
   shared_preferences: ^2.5.5
+  url_launcher: ^6.3.2
 
 dev_dependencies:
   flutter_test:

@@ -499,7 +499,7 @@ class _Chip extends StatelessWidget {
   }
 }
 
-/// A calm "timer is on" indicator. The time itself is hidden so children do
+/// A calm "timer is on" indicator. The time itself is hidden so readers do
 /// not feel rushed.
 class _TimerChip extends StatefulWidget {
   const _TimerChip();

@@ -26,7 +26,7 @@ class ReadingResult {
   final AttemptKind kind;
   final Passage passage;
 
-  /// Question id -> what the child answered (option text or typed text).
+  /// Question id -> what the reader answered (option text or typed text).
   final Map<String, String> responses;
   final Map<String, bool> correctById;
   final int correct;

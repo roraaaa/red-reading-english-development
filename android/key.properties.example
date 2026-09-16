@@ -1,0 +1,11 @@
+# Copy this file to android/key.properties and fill in your own values.
+# key.properties is gitignored because it holds the keystore passwords.
+#
+# Make the keystore first (see "Signing a release build" in README.md), keep it
+# outside this repository, and back it up. If you lose it you can never publish
+# an update to the same app on Google Play.
+
+storeFile=C:/Users/<you>/keys/red-upload.jks
+storePassword=<the keystore password you chose>
+keyAlias=red
+keyPassword=<the key password you chose>

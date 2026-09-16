@@ -45,7 +45,17 @@ app.*.map.json
 *service-account*.json
 tool/keys/
 
+# Android release signing. key.properties holds the keystore passwords, and
+# losing the keystore itself means never being able to update the app on Play,
+# so keep a backup somewhere safe and off this repository.
+/android/key.properties
+*.jks
+*.keystore
+
 # Android Studio will place build artifacts here
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Kotlin compiler session files, written during an Android build
+/android/.kotlin/

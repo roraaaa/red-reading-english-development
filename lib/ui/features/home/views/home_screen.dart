@@ -138,10 +138,10 @@ class _TopBar extends StatelessWidget {
       children: [
         Semantics(
           button: true,
-          label: 'My progress',
+          label: 'My account',
           child: InkWell(
             customBorder: const CircleBorder(),
-            onTap: () => context.push(Routes.progress),
+            onTap: () => context.push(Routes.account),
             child: CircleAvatar(
               radius: 26,
               backgroundColor: AppColors.primaryTint,

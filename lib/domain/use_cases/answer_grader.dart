@@ -2,7 +2,7 @@ import '../models/question.dart';
 
 /// Grades answers without a network call.
 ///
-/// Typed answers are forgiving on purpose, because children misspell words:
+/// Typed answers are forgiving on purpose, because readers misspell words:
 /// case, punctuation, accents, plurals ("moons" = "moon"), number words
 /// ("two" = "2") and one-letter typos in longer words are all accepted.
 class AnswerGrader {

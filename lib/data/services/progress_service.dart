@@ -39,12 +39,14 @@ class FirestoreProgressService implements ProgressService {
 
 /// Offline demo storage on this device.
 class LocalProgressService implements ProgressService {
-  String _key(String userId) => 'red.attempts.$userId';
+  /// Where one demo account's scores are stored. Public so that deleting an
+  /// account can clear them too.
+  static String keyFor(String userId) => 'red.attempts.$userId';
 
   @override
   Future<List<Attempt>> fetchAttempts(String userId) async {
     final prefs = await SharedPreferences.getInstance();
-    final raw = prefs.getString(_key(userId));
+    final raw = prefs.getString(keyFor(userId));
     if (raw == null) return [];
     final list = (jsonDecode(raw) as List)
         .map((e) => Attempt.fromJson(Map<String, dynamic>.from(e as Map)))
@@ -58,7 +60,7 @@ class LocalProgressService implements ProgressService {
     final existing = await fetchAttempts(userId);
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(
-      _key(userId),
+      keyFor(userId),
       jsonEncode([attempt.toJson(), ...existing.map((a) => a.toJson())]),
     );
   }

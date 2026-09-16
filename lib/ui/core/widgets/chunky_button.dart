@@ -6,7 +6,7 @@ import '../theme/app_theme.dart';
 enum ChunkyVariant { primary, secondary, soft }
 
 /// A big, friendly "3D" button: it has a darker bottom edge and sinks when
-/// pressed. At least 56px tall so small fingers can hit it easily.
+/// pressed. At least 56px tall so it is an easy target on any screen.
 class ChunkyButton extends StatefulWidget {
   const ChunkyButton({
     super.key,

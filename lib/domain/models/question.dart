@@ -28,7 +28,7 @@ class Question {
   /// e.g. `[["manila"], ["philippines"]]`.
   final List<List<String>> accepted;
 
-  /// Model answer shown to the child after grading (text questions).
+  /// Model answer shown to the reader after grading (text questions).
   final String answerText;
 
   String get correctAnswerLabel =>

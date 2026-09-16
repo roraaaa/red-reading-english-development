@@ -1,11 +1,11 @@
 {
-    "name": "red",
-    "short_name": "red",
+    "name": "RED - Reading English Development",
+    "short_name": "RED",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#FFF7EE",
     "theme_color": "#CC3F28",
-    "description": "A new Flutter project.",
+    "description": "An English reading comprehension app for students and self-learners.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

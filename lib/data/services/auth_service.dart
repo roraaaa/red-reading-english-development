@@ -1,6 +1,6 @@
 import '../../domain/models/app_user.dart';
 
-/// A message that is safe to show to the child or parent.
+/// A message that is safe to show the reader.
 class AuthException implements Exception {
   const AuthException(this.message);
 
@@ -28,4 +28,11 @@ abstract interface class AuthService {
   Future<void> sendPasswordReset(String email);
 
   Future<void> signOut();
+
+  /// Permanently removes the account, the profile and every saved score.
+  ///
+  /// [password] is the account's current password. Asking for it proves the
+  /// person tapping Delete is the account holder and not someone who picked
+  /// up a phone that was left logged in.
+  Future<void> deleteAccount({required String password});
 }

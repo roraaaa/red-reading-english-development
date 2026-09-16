@@ -1,0 +1,292 @@
+<!doctype html>
+<!--
+  Published with GitHub Pages from the docs/ folder. Both stores check that this
+  page stays reachable and that the contact address on it actually works, so
+  keep the URL stable and watch that inbox for deletion requests.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RED — Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Lexend:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --background: #FFF7EE;
+    --surface: #FFFFFF;
+    --surface-muted: #FBEFE3;
+    --outline: #EADBCB;
+    --ink: #2A2340;
+    --ink-soft: #625B75;
+    --red: #CC3F28;
+    --red-deep: #9E2E1B;
+    --red-tint: #FFE3DA;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 16px 64px;
+    background: var(--background);
+    color: var(--ink);
+    font-family: Lexend, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  header { padding: 48px 0 28px; }
+  .badge {
+    display: inline-block;
+    background: var(--red-tint);
+    color: var(--red-deep);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 40px;
+    margin-bottom: 14px;
+  }
+  h1, h2, h3 { font-family: Fredoka, Lexend, sans-serif; font-weight: 600; line-height: 1.25; }
+  h1 { font-size: clamp(30px, 6vw, 40px); margin: 0 0 8px; }
+  h2 { font-size: 22px; margin: 36px 0 10px; }
+  h3 { font-size: 17px; margin: 22px 0 6px; }
+  .lede { color: var(--ink-soft); margin: 0; }
+  main {
+    background: var(--surface);
+    border: 1.5px solid var(--outline);
+    border-radius: 24px;
+    padding: 8px 28px 32px;
+    box-shadow: 0 6px 18px rgba(42, 35, 64, 0.06);
+  }
+  main > h2:first-of-type { margin-top: 28px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 7px; }
+  a { color: var(--red-deep); }
+  code {
+    background: var(--surface-muted);
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  .note {
+    background: var(--surface-muted);
+    border-radius: 16px;
+    padding: 16px 20px;
+    margin: 22px 0;
+  }
+  .note p:first-child { margin-top: 0; }
+  .note p:last-child { margin-bottom: 0; }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--outline); vertical-align: top; }
+  th { font-weight: 600; background: var(--surface-muted); }
+  .scroll { overflow-x: auto; }
+  footer { text-align: center; color: var(--ink-soft); font-size: 14px; padding-top: 28px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="badge">RED — Reading English Development</span>
+  <h1>Privacy Policy</h1>
+  <p class="lede">Last updated 16 September 2026</p>
+</header>
+
+<main>
+
+<h2>The short version</h2>
+<p>
+  RED is an English reading-comprehension app. To save your scores it needs an
+  account, so it stores your name, your email address and the results of the
+  stories and assessments you finish. That is all. RED shows no adverts, has no
+  analytics or tracking, and never sells or shares your information with anyone
+  who wants to market to you. You can delete everything from inside the app at
+  any time.
+</p>
+
+<h2>Who runs RED</h2>
+<p>
+  RED is built and run by Clarence Purisima as an independent project. If you
+  have a question about this policy or about your information, write to
+  <a href="mailto:clarencepurisimacp@gmail.com">clarencepurisimacp@gmail.com</a>.
+</p>
+
+<h2>What RED collects</h2>
+<div class="scroll">
+<table>
+  <tr>
+    <th>Information</th>
+    <th>Why</th>
+  </tr>
+  <tr>
+    <td>Your name (or whatever you type as your name)</td>
+    <td>To greet you and label your progress</td>
+  </tr>
+  <tr>
+    <td>Your email address</td>
+    <td>To log you in and to send a password-reset link if you ask for one</td>
+  </tr>
+  <tr>
+    <td>Your password</td>
+    <td>
+      Handled entirely by Google Firebase Authentication, which stores it in a
+      scrambled (hashed) form. RED never sees or stores your actual password.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Your results: which story or assessment you did, your score, stars, the
+      reading time and reading speed, and when you finished
+    </td>
+    <td>To show your progress over time on the <strong>My progress</strong> screen</td>
+  </tr>
+</table>
+</div>
+
+<h3>What RED does not collect</h3>
+<ul>
+  <li>No location, contacts, photos, microphone or camera access</li>
+  <li>No advertising identifiers, and no adverts of any kind</li>
+  <li>No analytics, usage tracking or crash-reporting services</li>
+  <li>No payment information — RED is free and has nothing to buy</li>
+</ul>
+
+<h2>Where your information is kept</h2>
+<p>
+  RED uses <strong>Google Firebase</strong> (Firebase Authentication and Cloud
+  Firestore) to store accounts and scores. Google processes this information on
+  RED's behalf and on its own servers, which may be outside your country. Google
+  describes how it handles this data in the
+  <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase Privacy and Security</a>
+  documentation.
+</p>
+<p>
+  Your device also keeps a copy of the stories and your login session so the app
+  works offline. Uninstalling RED removes that local copy, but it does not delete
+  your account — see below.
+</p>
+
+<h2>Other services the app touches</h2>
+<ul>
+  <li>
+    <strong>Read-aloud</strong> uses the text-to-speech voice already installed
+    on your device. The text is spoken on the device; nothing is uploaded, and
+    RED does not record any audio.
+  </li>
+  <li>
+    <strong>Google Fonts</strong> supplies the two typefaces RED uses. Your
+    device downloads them from Google's servers the first time they are needed,
+    which means Google receives that request in the ordinary way any website
+    request works.
+  </li>
+  <li>
+    <strong>Printing and PDFs</strong> are produced on your device and handed to
+    whatever printing or file app you choose. RED does not upload them.
+  </li>
+  <li>
+    <strong>Story photographs</strong> are included inside the app itself under
+    open licences, with the photographer and licence credited on each story. No
+    request leaves your device to show them.
+  </li>
+</ul>
+
+<h2>Deleting your account and your scores</h2>
+<p>
+  You can delete everything yourself, at any time, without asking anyone:
+</p>
+<ul>
+  <li>Open RED and log in.</li>
+  <li>Tap the circle with your initial at the top of the home screen.</li>
+  <li>Tap <strong>Delete my account</strong>, then confirm with your password.</li>
+</ul>
+<p>
+  This permanently removes your account, your name, your email address and every
+  score you have saved. It cannot be undone, and there is no backup copy to
+  restore from.
+</p>
+<div class="note">
+  <p>
+    <strong>If you can no longer open the app</strong> — for example you have
+    uninstalled it or cannot log in — email
+    <a href="mailto:clarencepurisimacp@gmail.com">clarencepurisimacp@gmail.com</a>
+    from the address you signed up with, asking for your account to be deleted.
+    We will delete it within 30 days and confirm by email.
+  </p>
+</div>
+
+<h2>How long information is kept</h2>
+<p>
+  Your account and scores are kept for as long as the account exists, because the
+  whole point is to show progress over months of reading. When you delete the
+  account, the account record and its scores are removed from the live database
+  immediately. Google's own backups of Firestore may keep a copy for a short
+  period afterwards before they expire.
+</p>
+
+<h2>Age</h2>
+<p>
+  RED is intended for readers aged 13 and over, and for teachers, tutors and
+  parents who use it with a learner. It is not directed at children under 13,
+  and RED does not knowingly collect information from a child under 13. If you
+  believe a younger child has created an account, email us at the address above
+  and we will delete it.
+</p>
+<div class="note">
+  <p>
+    <strong>A note for teachers and parents:</strong> if you want a younger
+    learner to use RED, please create and hold the account yourself and supervise
+    its use. That way the account is yours, and you decide what name and email
+    address it carries.
+  </p>
+</div>
+
+<h2>Your rights</h2>
+<p>
+  Depending on where you live, data-protection law gives you rights over your
+  information. Wherever you are, RED offers all of the following:
+</p>
+<ul>
+  <li><strong>See it</strong> — your name and email are on the Account screen and every score is on My progress.</li>
+  <li><strong>Correct it</strong> — email us and we will fix anything that is wrong.</li>
+  <li><strong>Delete it</strong> — use Delete my account, or email us.</li>
+  <li><strong>Take it with you</strong> — every story and result can be saved as a PDF from inside the app, and we will send you a copy of your stored data on request.</li>
+  <li><strong>Complain</strong> — you can raise a concern with your local data-protection authority.</li>
+</ul>
+<p>
+  RED is operated from the Philippines and follows the Data Privacy Act of 2012
+  (Republic Act No. 10173). Readers in the European Economic Area and the United
+  Kingdom have these rights under the GDPR; the lawful basis for handling your
+  information is the contract to provide you the app, and your consent to create
+  an account.
+</p>
+
+<h2>Security</h2>
+<p>
+  Traffic between the app and Firebase is encrypted. Database rules mean an
+  account can only ever read and write its own profile and its own scores, and a
+  saved score cannot be edited after the fact. No system is perfect, so please
+  use a password you do not use anywhere else.
+</p>
+
+<h2>Changes to this policy</h2>
+<p>
+  If this policy changes, the date at the top changes with it, and any change
+  that affects what RED collects or who it shares with will be announced in the
+  app before it takes effect.
+</p>
+
+<h2>Contact</h2>
+<p>
+  Questions, corrections, or a deletion request:
+  <a href="mailto:clarencepurisimacp@gmail.com">clarencepurisimacp@gmail.com</a>.
+</p>
+
+</main>
+
+<footer>
+  RED — Reading English Development
+</footer>
+
+</div>
+</body>
+</html>

@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../domain/models/app_user.dart';
 import 'auth_service.dart';
+import 'progress_service.dart';
 
 /// Offline demo accounts stored on this device only.
 ///
@@ -75,6 +76,25 @@ class LocalAuthService implements AuthService {
   @override
   Future<void> signOut() async {
     final prefs = await SharedPreferences.getInstance();
+    await prefs.remove(_sessionKey);
+    _changes.add(null);
+  }
+
+  @override
+  Future<void> deleteAccount({required String password}) async {
+    final user = await _currentUser();
+    if (user == null) throw const AuthException('You are not logged in.');
+
+    final users = await _loadUsers();
+    final record = users[_key(user.email)];
+    if (record == null || record['hash'] != _hash(record['salt'] as String, password)) {
+      throw const AuthException('That password is not correct.');
+    }
+
+    users.remove(_key(user.email));
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_usersKey, jsonEncode(users));
+    await prefs.remove(LocalProgressService.keyFor(user.id));
     await prefs.remove(_sessionKey);
     _changes.add(null);
   }

@@ -46,6 +46,11 @@ class AuthRepository extends ChangeNotifier {
     _setUser(null);
   }
 
+  Future<void> deleteAccount({required String password}) async {
+    await _service.deleteAccount(password: password);
+    _setUser(null);
+  }
+
   void _setUser(AppUser? user) {
     _user = user;
     _initialized = true;
